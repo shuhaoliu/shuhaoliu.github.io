@@ -12,11 +12,11 @@ remote_theme             : "mmistakes/minimal-mistakes"
 
 # Site Settings
 locale                   : "en"
-title                    : "Site Title"
+title                    : "Shuhao Liu"
 title_separator          : "-"
-name                     : "Your Name"
-description              : "An amazing website."
-url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+name                     : "Shuhao Liu"
+description              : "PhD Candidate @ U of T"
+url                      : "https://liuempire.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "liuempire/liuempire.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
@@ -86,11 +86,11 @@ analytics:
 
 # Site Author
 author:
-  name             : "Your Name"
+  name             : "Shuhao Liu"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "I am an amazing person."
-  location         : "Somewhere"
-  email            :
+  location         : "Toronto, Ontario"
+  email            : "shuhao@ece.toronto.edu"
   uri              :
   home             : # null (default), "absolute or relative url to link to author home"
   bitbucket        :
@@ -113,7 +113,7 @@ author:
   tumblr           :
   twitter          :
   vine             :
-  weibo            :
+  weibo            : "liushuhaothu"
   xing             :
   youtube          : # "https://youtube.com/c/MichaelRoseDesign"
 
