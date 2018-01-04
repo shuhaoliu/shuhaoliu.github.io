@@ -12,7 +12,7 @@ remote_theme             : "mmistakes/minimal-mistakes"
 
 # Site Settings
 locale                   : "en"
-title                    : "Shuhao Liu - Personal Website"
+title                    : "Home"
 title_separator          : "-"
 name                     : "Shuhao Liu"
 description              : "Personal Website of Shuhao Liu"

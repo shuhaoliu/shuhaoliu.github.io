@@ -1,0 +1,11 @@
+main:
+  - title: "Biography"
+    url: /bio.html
+  - title: "Publications"
+    url: /publication.html
+  - title: "Projects"
+    url: /projects/
+  - title: "Random R&D"
+    url: /blogs/
+  - title: "想啥说啥"
+    url: /posts/
