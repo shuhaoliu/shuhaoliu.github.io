@@ -31,6 +31,7 @@ feature_row:
     University of Toronto<br>
     40 St. George Street<br>
     Toronto, M5S 2E4, Ontario, Canada<br>
+    [Google Scholar Profile](https://scholar.google.com/citations?user=vzwmJU8AAAAJ&hl=en&oi=ao)
     "
 ---
 
