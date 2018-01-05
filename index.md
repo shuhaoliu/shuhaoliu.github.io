@@ -49,7 +49,7 @@ feature_row:
 
 <br>
 
-# <i class="fa fa-microchip fa-fw"></i>&nbsp;Research Interests
+# <i class="fa fa-microchip fa-fw"></i>&nbsp;About Me
 ------------------
 
 I work at [iQua](iqua.ece.toronto.edu) research group. My past research covers a broad area related to distributed systems, including
@@ -59,12 +59,12 @@ I work at [iQua](iqua.ece.toronto.edu) research group. My past research covers a
 
 <br>
 
-# <i class="fa fa-book fa-fw"></i>&nbsp;Selected Publications[(Full List)](/publication.html){: .btn}
+# <i class="fa fa-book fa-fw"></i>&nbsp;Selected Publications[(Full List)](/publications){: .btn}
 ------------------
 
-+ **Shuhao Liu**, Li Chen, Baochun Li, Aiden Carnegie. "A Hierarchical Synchronous Parallel Model for Wide-Area Graph Analytics,"" in *the Proceedings of IEEE INFOCOM 2018*, Honolulu, HI, April 15-19, 2018.
++ **Shuhao Liu**, Li Chen, Baochun Li, Aiden Carnegie. "A Hierarchical Synchronous Parallel Model for Wide-Area Graph Analytics," in the *Proceedings of IEEE INFOCOM 2018*, Honolulu, HI, April 15-19, 2018.
 + **Shuhao Liu**, Baochun Li, "Stemflow: Software-Defined Inter-Datacenter Overlay as a Service," in *IEEE Journal on Selected Areas in Communications (JSAC)*, vol. 35, no. 11, pp. 2563-2573, Nov. 2017.
-+ **Shuhao Liu**, Hao Wang, Baochun Li. "[Optimizing Shuffle in Wide-Area Data Analytics](http://iqua.ece.toronto.edu/papers/sliu-icdcs17.pdf)," in *the Proceedings of the 37th International Conference on Distributed Computing Systems (ICDCS 2017)*, Atlanta, Georgia, June 5-8, 2017.
++ **Shuhao Liu**, Hao Wang, Baochun Li. "[Optimizing Shuffle in Wide-Area Data Analytics](http://iqua.ece.toronto.edu/papers/sliu-icdcs17.pdf)," in the *Proceedings of the 37th International Conference on Distributed Computing Systems (ICDCS 2017)*, Atlanta, Georgia, June 5-8, 2017.
 
 <br>
 
