@@ -16,8 +16,9 @@ excerpt: "
     Ph.D. Candidate<br>
     Department of Electrical and Computer Engineering<br>
     University of Toronto<br>
-    40 St. George Street<br>
-    Toronto, M5S 2E4, Ontario, Canada<br>
+    <br>
+    [Google Scholar](https://scholar.google.com/citations?user=vzwmJU8AAAAJ&hl=en&oi=ao){: .btn .btn--light-outline .btn--small}
+    [GitHub](https://github.com/shuhaoliu){: .btn .btn--light-outline .btn--small}
     "
 intro:
   - excerpt: "miamiao"
@@ -31,7 +32,6 @@ feature_row:
     University of Toronto<br>
     40 St. George Street<br>
     Toronto, M5S 2E4, Ontario, Canada<br>
-    [Google Scholar Profile](https://scholar.google.com/citations?user=vzwmJU8AAAAJ&hl=en&oi=ao)
     "
 ---
 
@@ -57,6 +57,7 @@ I work at [iQua](iqua.ece.toronto.edu) research group. My past research covers a
 * Software-defined networking
 * Big data analytics frameworks (*e.g.*, Apache Spark)
 * Network virtualization
+
 
 <br>
 
