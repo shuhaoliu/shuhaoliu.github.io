@@ -12,5 +12,11 @@ main:
 homepage:
   - title: HOME
     children:
-      - title: "Research Interest"
-        url: /index.html#research-interest
+      - title: "News"
+        url: /index.html#news
+      - title: "Research Interests"
+        url: /index.html#research-interests
+      - title: "Selected Publications"
+        url: /index.html#selected-publications
+      - title: "Projects"
+        url: /index.html#projects
