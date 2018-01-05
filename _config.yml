@@ -12,7 +12,7 @@ remote_theme             : "mmistakes/minimal-mistakes"
 
 # Site Settings
 locale                   : "en"
-title                    : "Home"
+title                    : "Homepage"
 title_separator          : "-"
 name                     : "Shuhao Liu"
 description              : "Personal Website of Shuhao Liu"
@@ -87,7 +87,7 @@ analytics:
 # Site Author
 author:
   name             : "Shuhao Liu"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "/assets/images/avatar.jpeg"
   bio              : "Ph.D. Candidate @ UofT."
   location         : "Toronto, Ontario"
   email            : "shuhao@ece.toronto.edu"

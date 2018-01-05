@@ -3,9 +3,14 @@ main:
     url: /bio.html
   - title: "Publications"
     url: /publication.html
-  - title: "Projects"
+  - title: "Research"
     url: /projects/
-  - title: "Random R&D"
+  - title: "Blog"
     url: /blogs/
   - title: "想啥说啥"
     url: /posts/
+homepage:
+  - title: HOME
+    children:
+      - title: "Research Interest"
+        url: /index.html#research-interest

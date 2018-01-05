@@ -10,5 +10,18 @@ $sans-serif-narrow  : "Lato", -apple-system, BlinkMacSystemFont, "Roboto", "Sego
 $global-font-family : $serif;
 $header-font-family : $sans-serif-narrow;
 
+
+$link-color: red;
+
+$small                        : 400px;
+$medium                       : 600px;
+$medium-wide                  : 768px;
+$large                        : 900px;
+$x-large                      : 1024px;
+
+$right-sidebar-width-narrow   : 150px !default;
+$right-sidebar-width          : 200px !default;
+$right-sidebar-width-wide     : 250px !default;
+
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
