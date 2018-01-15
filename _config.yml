@@ -89,7 +89,7 @@ author:
   name             : "Shuhao Liu"
   avatar           : "/assets/images/avatar.jpeg"
   bio              : "Ph.D. Candidate @ UofT."
-  location         : "Toronto, Ontario"
+  location         : "Toronto"
   email            : "shuhao@ece.toronto.edu"
   uri              :
   home             : # null (default), "absolute or relative url to link to author home"
