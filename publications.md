@@ -1,6 +1,7 @@
 ---
 title: "Publications"
 layout: splash
+last_modified_at: 2018-01-15T19:56:23-05:00
 ---
 ## Conference Papers
 
