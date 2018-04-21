@@ -1,17 +1,22 @@
 ---
 title: "Publications"
 layout: splash
-last_modified_at: 2018-01-15T19:56:23-05:00
+last_modified_at: 2018-04-20T19:56:23-05:00
 ---
 ## Conference Papers
 
 ### First-author papers
 
+1. **[ATC]**
+**Shuhao Liu**, [Li Chen](li), [Baochun Li][baochun]. "Siphon: Expediting Inter-Datacenter Coflows in Wide-Area Data Analytics," in the *Proceedings of USENIX Annual Technical Conference (ATC) 2018*, Boston, MA, July 11-13, 2018.
+
 1. **[INFOCOM]**
-**Shuhao Liu**, Li Chen, [Baochun Li][baochun], Aiden Carnegie. "A Hierarchical Synchronous Parallel Model for Wide-Area Graph Analytics," in the *Proceedings of IEEE INFOCOM 2018*, Honolulu, HI, April 15-19, 2018.
+**Shuhao Liu**, [Li Chen](li), [Baochun Li][baochun], Aiden Carnegie. "[A Hierarchical Synchronous Parallel Model for Wide-Area Graph Analytics](/assets/papers/shuhao-infocom18.pdf)," in the *Proceedings of IEEE INFOCOM 2018*, Honolulu, HI, April 15-19, 2018.
+<small>[[slides](/assets/papers/shuhao-infocom18-slides.pdf)]</small>
 
 1. **[ICDCS]**
 **Shuhao Liu**, [Hao Wang][haowang], [Baochun Li][baochun]. "[Optimizing Shuffle in Wide-Area Data Analytics](http://iqua.ece.toronto.edu/papers/sliu-icdcs17.pdf)," in the *Proceedings of International Conference on Distributed Computing Systems (ICDCS) 2017*, Atlanta, Georgia, June 5-8, 2017.
+<small>[[slides](/assets/papers/shuhao-icdcs17-slides.pdf)]</small>
 
 1. **[ICC]**
 **Shuhao Liu**, [Zhiping Cai][zpcai], [Hong Xu][henry], Ming Xu, "[Security-Aware Virtual Network Embedding](/assets/papers/shuhao-icc14.pdf)," in the *Proceedings of IEEE International Conference on Communications (ICC) 2014*, Sydney, Australia, June 10-14, 2014.
@@ -25,7 +30,7 @@ Siqi Ji, **Shuhao Liu**, [Baochun Li][baochun]. “Deadline-Aware Scheduling and
 Wenxin Li, [Di Niu][diniu], Yinan Liu, **Shuhao Liu**, [Baochun Li][baochun]. "Joint Routing and Batch Sizing in Wide-Area Stream Processing Systems," in the *Proceedings of the 14th International Conference on Autonomic Computing (ICAC) 2017* (short paper), Columbus, Ohio, July 17-21, 2017.
 
 1. **[INFOCOM]**
-Li Chen, **Shuhao Liu**, [Baochun Li][baochun], [Bo Li](https://www.cse.ust.hk/~bli/). "[Scheduling Jobs across Geo-Distributed Datacenters with Max-Min Fairness](http://iqua.ece.toronto.edu/papers/lchen-infocom17.pdf)," in the *Proceedings of IEEE INFOCOM 2017*, Atlanta, Georgia, May 1-4, 2017.
+[Li Chen](li), **Shuhao Liu**, [Baochun Li][baochun], [Bo Li](https://www.cse.ust.hk/~bli/). "[Scheduling Jobs across Geo-Distributed Datacenters with Max-Min Fairness](http://iqua.ece.toronto.edu/papers/lchen-infocom17.pdf)," in the *Proceedings of IEEE INFOCOM 2017*, Atlanta, Georgia, May 1-4, 2017.
 
 ## Journal Papers
 
@@ -44,7 +49,7 @@ Li Chen, **Shuhao Liu**, [Baochun Li][baochun], [Bo Li](https://www.cse.ust.hk/~
 ## Conference Posters & Demos
 
 1. **[SoCC]**
-**Shuhao Liu**, Li Chen, [Baochun Li][baochun]. "Siphon: a high-performance substrate for inter-datacenter transfers in wide-area data analytics," in the *Proceedings of Symposium on Cloud Computing (SoCC) 2017* (Poster Session), Santa Clara, California, September 24-27, 2017.
+**Shuhao Liu**, [Li Chen](li), [Baochun Li][baochun]. "Siphon: a high-performance substrate for inter-datacenter transfers in wide-area data analytics," in the *Proceedings of Symposium on Cloud Computing (SoCC) 2017* (Poster Session), Santa Clara, California, September 24-27, 2017.
 
 1. **[INFOCOM]**
 **Shuhao Liu**, [Baochun Li][baochun]. "Stemflow: Inter-Datacenter Overlay as a Service," in the *Proceedings of IEEE INFOCOM 2017* (Demo Session), Atlanta, Georgia, May 1-4, 2017.
@@ -56,3 +61,4 @@ Li Chen, **Shuhao Liu**, [Baochun Li][baochun], [Bo Li](https://www.cse.ust.hk/~
 [baochun]: http://iqua.ece.toronto.edu/bli/index.html
 [haowang]: http://www.haow.ca/
 [diniu]: https://sites.ualberta.ca/~dniu/Homepage/Home.html
+[li]: https://lichenut.github.io/
