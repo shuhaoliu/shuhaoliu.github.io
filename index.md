@@ -1,7 +1,7 @@
 ---
 title: "Shuhao Liu"
 layout: single
-last_modified_at: 2018-01-15T19:55:34-05:00
+last_modified_at: 2018-04-20T19:55:34-05:00
 
 toc: false
 
@@ -45,9 +45,9 @@ feature_row:
 
 | Time  | Event |
 |-------|-------|
-|2018.01| One paper accepted to IEEE Transactions on Services Computing.|
-|2017.12| The Hierarchical Synchronous Parallel paper accepted to **IEEE Infocom 2018**.|
-|2017.12| One co-authored paper accepted to IEEE IC2E 2018 (regular paper).|
+|2018.04| The Siphon paper is accepted to **USENIX ATC 2018**.|
+|2018.01| One paper is accepted to IEEE Transactions on Services Computing.|
+|2017.12| The Hierarchical Synchronous Parallel paper is accepted to **IEEE Infocom 2018**.|
 
 <br>
 
@@ -65,9 +65,9 @@ I work at [iQua](iqua.ece.toronto.edu) research group. My past research covers a
 # <i class="fa fa-book fa-fw"></i>&nbsp;Selected Publications[(Full List)](/publications){: .btn}
 ------------------
 
-+ **Shuhao Liu**, Li Chen, Baochun Li, Aiden Carnegie. "A Hierarchical Synchronous Parallel Model for Wide-Area Graph Analytics," in the *Proceedings of IEEE INFOCOM 2018*, Honolulu, HI, April 15-19, 2018.
++ **Shuhao Liu**, Li Chen, Baochun Li. "Siphon: Expediting Inter-Datacenter Coflows in Wide-Area Data Analytics," to appear in *USENIX Annual Technical Conference (ATC) 2018*, Boston, MA, July 11-13, 2018.
++ **Shuhao Liu**, Li Chen, Baochun Li, Aiden Carnegie. "[A Hierarchical Synchronous Parallel Model for Wide-Area Graph Analytics](/assets/papers/shuhao-infocom18.pdf)," in the *Proceedings of IEEE INFOCOM 2018*, Honolulu, HI, April 15-19, 2018.
 + **Shuhao Liu**, Baochun Li, "Stemflow: Software-Defined Inter-Datacenter Overlay as a Service," in *IEEE Journal on Selected Areas in Communications (JSAC)*, vol. 35, no. 11, pp. 2563-2573, Nov. 2017.
-+ **Shuhao Liu**, Hao Wang, Baochun Li. "[Optimizing Shuffle in Wide-Area Data Analytics](http://iqua.ece.toronto.edu/papers/sliu-icdcs17.pdf)," in the *Proceedings of the 37th International Conference on Distributed Computing Systems (ICDCS 2017)*, Atlanta, Georgia, June 5-8, 2017.
 
 <br>
 
