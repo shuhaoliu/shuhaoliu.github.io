@@ -8,8 +8,7 @@ last_modified_at: 2018-04-20T19:56:23-05:00
 ### First-author papers
 
 1. **[ATC]**
-**Shuhao Liu**\*, [Li Chen][li]\*, [Baochun Li][baochun]. "Siphon: Expediting Inter-Datacenter Coflows in Wide-Area Data Analytics," in the *Proceedings of USENIX Annual Technical Conference (ATC) 2018*, Boston, MA, July 11-13, 2018.
-<small>(\*: Equally contributed.)</small>
+**Shuhao Liu**, [Li Chen][li], [Baochun Li][baochun]. "Siphon: Expediting Inter-Datacenter Coflows in Wide-Area Data Analytics," in the *Proceedings of USENIX Annual Technical Conference (ATC) 2018*, Boston, MA, July 11-13, 2018.
 
 1. **[INFOCOM]**
 **Shuhao Liu**, [Li Chen][li], [Baochun Li][baochun], Aiden Carnegie. "[A Hierarchical Synchronous Parallel Model for Wide-Area Graph Analytics](/assets/papers/shuhao-infocom18.pdf)," in the *Proceedings of IEEE INFOCOM 2018*, Honolulu, HI, April 15-19, 2018.
