@@ -1,7 +1,7 @@
 ---
 title: "Publications"
 layout: splash
-last_modified_at: 2018-04-20T19:56:23-05:00
+last_modified_at: 2018-05-20T19:56:23-05:00
 ---
 ## Conference Papers
 
@@ -11,8 +11,7 @@ last_modified_at: 2018-04-20T19:56:23-05:00
 **Shuhao Liu**, [Li Chen][li], [Baochun Li][baochun]. "Siphon: Expediting Inter-Datacenter Coflows in Wide-Area Data Analytics," in the *Proceedings of USENIX Annual Technical Conference (ATC) 2018*, Boston, MA, July 11-13, 2018.
 
 1. **[INFOCOM]**
-**Shuhao Liu**, [Li Chen][li], [Baochun Li][baochun], Aiden Carnegie. "[A Hierarchical Synchronous Parallel Model for Wide-Area Graph Analytics](/assets/papers/shuhao-infocom18.pdf)," in the *Proceedings of IEEE INFOCOM 2018*, Honolulu, HI, April 15-19, 2018.
-<small>[[slides](/assets/papers/shuhao-infocom18-slides.pdf)]</small>
+**Shuhao Liu**, [Li Chen][li], [Baochun Li][baochun], Aiden Carnegie. "[A Hierarchical Synchronous Parallel Model for Wide-Area Graph Analytics](/assets/papers/shuhao-infocom18.pdf)," in the *Proceedings of IEEE INFOCOM 2018*, Honolulu, HI, April 15-19, 2018. <small>([Best-in-Session Presentation Award](/assets/papers/shuhao-infocom18-award.pdf)) [[slides](/assets/papers/shuhao-infocom18-slides.pdf)]</small>
 
 1. **[ICDCS]**
 **Shuhao Liu**, [Hao Wang][haowang], [Baochun Li][baochun]. "[Optimizing Shuffle in Wide-Area Data Analytics](http://iqua.ece.toronto.edu/papers/sliu-icdcs17.pdf)," in the *Proceedings of International Conference on Distributed Computing Systems (ICDCS) 2017*, Atlanta, Georgia, June 5-8, 2017.
