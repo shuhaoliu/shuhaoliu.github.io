@@ -1,7 +1,7 @@
 ---
 title: "Shuhao Liu"
 layout: single
-last_modified_at: 2018-05-20T19:55:34-05:00
+last_modified_at: 2018-06-15T19:55:34-05:00
 
 toc: false
 
@@ -66,7 +66,7 @@ I work at [iQua](iqua.ece.toronto.edu) research group. My past research covers a
 # <i class="fa fa-book fa-fw"></i>&nbsp;Selected Publications[(Full List)](/publications){: .btn}
 ------------------
 
-+ **Shuhao Liu**, Li Chen, Baochun Li. "Siphon: Expediting Inter-Datacenter Coflows in Wide-Area Data Analytics," to appear in *USENIX Annual Technical Conference (ATC) 2018*, Boston, MA, July 11-13, 2018.
++ **Shuhao Liu**, Li Chen, Baochun Li. "[Siphon: Expediting Inter-Datacenter Coflows in Wide-Area Data Analytics](/assets/papers/shuhao-atc18-siphon.pdf)," to appear in *USENIX Annual Technical Conference (ATC) 2018*, Boston, MA, July 11-13, 2018.
 + **Shuhao Liu**, Li Chen, Baochun Li, Aiden Carnegie. "[A Hierarchical Synchronous Parallel Model for Wide-Area Graph Analytics](/assets/papers/shuhao-infocom18.pdf)," in the *Proceedings of IEEE INFOCOM 2018*, Honolulu, HI, April 15-19, 2018. <small>(Best-in-Session Presentation Award)</small>
 + **Shuhao Liu**, Baochun Li, "Stemflow: Software-Defined Inter-Datacenter Overlay as a Service," in *IEEE Journal on Selected Areas in Communications (JSAC)*, vol. 35, no. 11, pp. 2563-2573, Nov. 2017.
 
