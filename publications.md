@@ -1,7 +1,7 @@
 ---
 title: "Publications"
 layout: splash
-last_modified_at: 2018-05-20T19:56:23-05:00
+last_modified_at: 2018-07-16T22:28:00-05:00
 ---
 ## Conference Papers
 
@@ -9,6 +9,7 @@ last_modified_at: 2018-05-20T19:56:23-05:00
 
 1. **[ATC]**
 **Shuhao Liu**, [Li Chen][li], [Baochun Li][baochun]. "[Siphon: Expediting Inter-Datacenter Coflows in Wide-Area Data Analytics](/assets/papers/shuhao-atc18-siphon.pdf)," in the *Proceedings of USENIX Annual Technical Conference (ATC) 2018*, Boston, MA, July 11-13, 2018.
+<small>[[slides](/assets/papers/shuhao-atc18-slides.pdf)]</small>
 
 1. **[INFOCOM]**
 **Shuhao Liu**, [Li Chen][li], [Baochun Li][baochun], Aiden Carnegie. "[A Hierarchical Synchronous Parallel Model for Wide-Area Graph Analytics](/assets/papers/shuhao-infocom18.pdf)," in the *Proceedings of IEEE INFOCOM 2018*, Honolulu, HI, April 15-19, 2018. <small>([Best-in-Session Presentation Award](/assets/papers/shuhao-infocom18-award.pdf)) [[slides](/assets/papers/shuhao-infocom18-slides.pdf)]</small>
