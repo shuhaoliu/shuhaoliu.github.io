@@ -88,7 +88,7 @@ analytics:
 author:
   name             : "Shuhao Liu"
   avatar           : "/assets/images/avatar.jpeg"
-  bio              : "Ph.D. Candidate @ UofT."
+  bio              : "Ph.D."
   location         : "Toronto"
   email            : "shuhao@ece.toronto.edu"
   uri              :
@@ -196,6 +196,7 @@ plugins:
   - jekyll-feed
   - jemoji
   - jekyll-remote-theme
+  - jekyll-include-cache
 
 # mimic GitHub Pages with --safe
 whitelist:

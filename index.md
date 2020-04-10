@@ -1,7 +1,7 @@
 ---
 title: "Shuhao Liu"
 layout: single
-last_modified_at: 2018-06-15T19:55:34-05:00
+last_modified_at: 2020-03-31T08:00:00-05:00
 
 toc: false
 
@@ -14,7 +14,7 @@ header:
   overlay_image: /assets/images/datacenter.jpg
   image: /assets/images/avatar.jpeg
 excerpt: "
-    Ph.D. Candidate<br>
+    Ph.D. <s>student</s><br>
     Department of Electrical and Computer Engineering<br>
     University of Toronto<br>
     <br>
@@ -22,13 +22,13 @@ excerpt: "
     [GitHub](https://github.com/shuhaoliu){: .btn .btn--light-outline .btn--small}
     "
 intro:
-  - excerpt: "miamiao"
+  - excerpt: "miao"
 feature_row:
   - image_path: /assets/images/avatar.jpeg
     alt: "Shuhao Liu"
     title: "Shuhao Liu"
     excerpt: "
-    Ph.D. Candidate<br>
+    Ph.D.<br>
     Department of Electrical and Computer Engineering<br>
     University of Toronto<br>
     40 St. George Street<br>
@@ -45,20 +45,21 @@ feature_row:
 
 | Time  | Event |
 |-------|-------|
+|2019-2020| Nothing new, really. Trying hard to come get back on my feet.
+|2018.11| Defended my Ph.D. thesis. (Yay!!!)
+|2018.07-10| A 3-month internship at Google, working on cluster networking.|
 |2018.05| Won Best-in-Session Presentation Award from IEEE Infocom 2018.|
-|2018.04| The Siphon paper is accepted to **USENIX ATC 2018**.|
-|2018.01| One paper is accepted to IEEE Transactions on Services Computing.|
-|2017.12| The Hierarchical Synchronous Parallel paper is accepted to **IEEE Infocom 2018**.|
+|2018.04| The Siphon paper accepted to **USENIX ATC 2018**.|
 
 <br>
 
 # <i class="fa fa-microchip fa-fw"></i>&nbsp;About Me
 ------------------
 
-I work at [iQua](iqua.ece.toronto.edu) research group. My past research covers a broad area related to distributed systems, including
-* Software-defined networking
-* Big data analytics frameworks (*e.g.*, Apache Spark)
-* Network virtualization
+I worked at [iQua](iqua.ece.toronto.edu) research group during my Ph.D. study, advised by Prof. [Baochun Li](https://iqua.ece.toronto.edu/bli/index.html). My research covers a broad area related to decentralized and/or distributed systems and their performance, including
+* Anonymous communication systems,
+* Big data analytics frameworks (*e.g.*, Apache Spark),
+* Software-defined networking.
 
 
 <br>
@@ -72,5 +73,7 @@ I work at [iQua](iqua.ece.toronto.edu) research group. My past research covers a
 
 <br>
 
-# <i class="fa fa-tasks fa-fw"></i>&nbsp;Projects
+# <i class="fa fa-tasks fa-fw"></i>&nbsp;Links
 ------------------
+
+[![Awesome](https://awesome.re/badge-flat.svg)](https://awesome.re) See my awesome list [HERE](/links).
