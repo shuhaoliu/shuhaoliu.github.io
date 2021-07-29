@@ -21,3 +21,4 @@ This page is a curated list of awesome links/presentations that I would like to 
 ## Other ''Awesome'' Sharing
 
 * [My personal Keynote theme](/assets/sharing/shuhao-theme.kth), inspired by Google internal presentation slides.
+* [*WorkLife* with Adam Grant](https://www.ted.com/podcasts/worklife) podcast, "*The Porsche of podcasts.*"
