@@ -15,6 +15,7 @@ gem "github-pages", group: :jekyll_plugins
 
 gem "jekyll"
 gem "minimal-mistakes-jekyll"
+gem "webrick", "~> 1.7"
 
 # The following plugins are automatically loaded by the theme-gem:
 #   gem "jekyll-paginate"

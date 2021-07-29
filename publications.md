@@ -1,7 +1,7 @@
 ---
 title: "Publications"
 layout: splash
-last_modified_at: 2018-07-16T22:28:00-05:00
+last_modified_at: 2021-07-18T22:28:00-05:00
 ---
 ## Conference Papers
 
@@ -35,7 +35,10 @@ Wenxin Li, [Di Niu][diniu], Yinan Liu, **Shuhao Liu**, [Baochun Li][baochun]. "J
 ## Journal Papers
 
 1. **[TSC]**
-**Shuhao Liu**, [Hong Xu][henry], [Wei Bai][weibai], Libin Liu, [Kai Chen][kaichen], [Zhiping Cai][zpcai], "RepNet: Cutting Latency with Flow Replication in Data Center Networks," to appear in *IEEE Transactions on Services Computing*, 2018.
+**Shuhao Liu**, [Hong Xu][henry], [Wei Bai][weibai], Libin Liu, [Kai Chen][kaichen], [Zhiping Cai][zpcai], "RepNet: Cutting Latency with Flow Replication in Data Center Networks," in *IEEE Transactions on Services Computing (TSC)*, vol. 14, no. 1, pp. 248-261, January-February 2021.
+
+1. **[TPDS]**
+[Li Chen][li], **Shuhao Liu**, [Baochun Li][baochun]. "Optimizing Network Transfers for Data Analytic Jobs across Geo-Distributed Datacenters," to appear in *IEEE Transactions on Parallel and Distributed Systems (TPDS)*, 2021.
 
 1. **[JSAC]**
 **Shuhao Liu**, [Baochun Li][baochun], "Stemflow: Software-Defined Inter-Datacenter Overlay as a Service," in *IEEE Journal on Selected Areas in Communications (JSAC)*, vol. 35, no. 11, pp. 2563-2573, November 2017.

@@ -1,7 +1,9 @@
 ---
 title: "Shuhao Liu"
 layout: single
-last_modified_at: 2020-03-31T08:00:00-05:00
+classes:
+  - landing
+last_modified_at: 2021-07-28T08:00:00-05:00
 
 toc: false
 
@@ -14,8 +16,7 @@ header:
   overlay_image: /assets/images/datacenter.jpg
   image: /assets/images/avatar.jpeg
 excerpt: "
-    Ph.D. <s>student</s><br>
-    Department of Electrical and Computer Engineering<br>
+    Ph.D., Electrical and Computer Engineering &emsp;&emsp;&emsp;&emsp;<br>
     University of Toronto<br>
     <br>
     [Google Scholar](https://scholar.google.com/citations?user=vzwmJU8AAAAJ&hl=en&oi=ao){: .btn .btn--light-outline .btn--small}
@@ -27,13 +28,6 @@ feature_row:
   - image_path: /assets/images/avatar.jpeg
     alt: "Shuhao Liu"
     title: "Shuhao Liu"
-    excerpt: "
-    Ph.D.<br>
-    Department of Electrical and Computer Engineering<br>
-    University of Toronto<br>
-    40 St. George Street<br>
-    Toronto, M5S 2E4, Ontario, Canada<br>
-    "
 ---
 
 {% comment %}
@@ -45,11 +39,12 @@ feature_row:
 
 | Time  | Event |
 |-------|-------|
-|2019-2020| Nothing new, really. Trying hard to come get back on my feet.
-|2018.11| Defended my Ph.D. thesis. (Yay!!!)
+|2021.06| A co-authored paper got accepted to IEEE TPDS journal.|
+|2019-2021| Fighting (literally), learning, and incubating.|
+|2018.11| Successfully defended my Ph.D. thesis. (Yay!!!)|
 |2018.07-10| A 3-month internship at Google, working on cluster networking.|
 |2018.05| Won Best-in-Session Presentation Award from IEEE Infocom 2018.|
-|2018.04| The Siphon paper accepted to **USENIX ATC 2018**.|
+|2018.04| The Siphon paper got accepted to **USENIX ATC 2018**.|
 
 <br>
 
@@ -57,10 +52,10 @@ feature_row:
 ------------------
 
 I worked at [iQua](iqua.ece.toronto.edu) research group during my Ph.D. study, advised by Prof. [Baochun Li](https://iqua.ece.toronto.edu/bli/index.html). My research covers a broad area related to decentralized and/or distributed systems and their performance, including
-* Anonymous communication systems,
-* Big data analytics frameworks (*e.g.*, Apache Spark),
-* Software-defined networking.
 
+* System security and privacy,
+* Distributed systems and cloud computing,
+* Software-defined networking and datacenter networking.
 
 <br>
 
