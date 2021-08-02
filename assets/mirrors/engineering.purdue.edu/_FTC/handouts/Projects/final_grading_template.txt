@@ -1,0 +1,32 @@
+TOTAL = 
+
+(I) Problem motivation: 
+ - Can you argue that this is an important and difficult problem
+ - Excellent: 15, Very good: 12, Good: 10, Fair: 8, Unsatisfactory: 5
+
+(II) Problem formulation: 
+ - Can you rigorously formulate the problem that you are solving
+ - Can you differentiate the problem from what has already been solved
+ - Excellent: 15, Very good: 12, Good: 10, Fair: 8, Unsatisfactory: 5
+
+(III) Solution approach: 
+ - How convincing is your solution approach
+ - How novel is your solution approach (include discussion if previous work has attempted a solution to the same problem and how your approach is different)
+ - Excellent: 25, Very good: 22, Good: 18, Fair: 15, Unsatisfactory: 10
+
+(IV) How extensive are our implementation and experimental results:
+ - How much of the design has been implemented
+ - How well-designed are the experiments
+ - How convincing are the experimental results
+ - Excellent: 20, Very good: 18, Good: 15, Fair: 12, Unsatisfactory: 8
+
+(V) Presentation clarity: 
+ - How clearly did you present your ideas
+ - What is the quality of the slides/manuscript
+ - Excellent: 20, Very good: 18, Good: 15, Fair: 12, Unsatisfactory: 5
+
+(VI) Q&A/Future Work:
+ - (For presentation) How well did you field questions from the audience
+ - (For report and presentation) How well did you lay out the future work that others can do to build on your work
+ - Excellent: 5, Very good: 4, Good: 3, Fair: 2, Unsatisfactory: 1 
+

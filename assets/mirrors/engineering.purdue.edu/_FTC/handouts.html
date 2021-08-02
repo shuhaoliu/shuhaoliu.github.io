@@ -1,0 +1,1309 @@
+<html xmlns:v="urn:schemas-microsoft-com:vml"
+xmlns:o="urn:schemas-microsoft-com:office:office"
+xmlns:w="urn:schemas-microsoft-com:office:word"
+xmlns:m="http://schemas.microsoft.com/office/2004/12/omml"
+xmlns="http://www.w3.org/TR/REC-html40">
+
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=windows-1252">
+<meta name=ProgId content=Word.Document>
+<meta name=Generator content="Microsoft Word 12">
+<meta name=Originator content="Microsoft Word 12">
+<link rel=File-List href="handouts_files/filelist.xml">
+<link rel=Edit-Time-Data href="https://engineering.purdue.edu/FTC/handouts_files/editdata.mso">
+<!--[if !mso]>
+<style>
+v\:* {behavior:url(#default#VML);}
+o\:* {behavior:url(#default#VML);}
+w\:* {behavior:url(#default#VML);}
+.shape {behavior:url(#default#VML);}
+</style>
+<![endif]-->
+<title>Fault-tolerant Computer System Design: Handouts</title>
+<!--[if gte mso 9]><xml>
+ <o:DocumentProperties>
+  <o:Author>Saurabh Bagchi</o:Author>
+  <o:LastAuthor>Saurabh Bagch</o:LastAuthor>
+  <o:Revision>69</o:Revision>
+  <o:TotalTime>10719</o:TotalTime>
+  <o:Created>2009-01-15T23:10:00Z</o:Created>
+  <o:LastSaved>2011-05-03T05:34:00Z</o:LastSaved>
+  <o:Pages>2</o:Pages>
+  <o:Words>1743</o:Words>
+  <o:Characters>9939</o:Characters>
+  <o:Company>Purdue University</o:Company>
+  <o:Lines>82</o:Lines>
+  <o:Paragraphs>23</o:Paragraphs>
+  <o:CharactersWithSpaces>11659</o:CharactersWithSpaces>
+  <o:Version>12.00</o:Version>
+ </o:DocumentProperties>
+</xml><![endif]-->
+<link rel=themeData href="handouts_files/themedata.thmx">
+<link rel=colorSchemeMapping href="handouts_files/colorschememapping.xml">
+<!--[if gte mso 9]><xml>
+ <w:WordDocument>
+  <w:Zoom>110</w:Zoom>
+  <w:HideSpellingErrors/>
+  <w:TrackMoves>false</w:TrackMoves>
+  <w:TrackFormatting/>
+  <w:ValidateAgainstSchemas/>
+  <w:SaveIfXMLInvalid>false</w:SaveIfXMLInvalid>
+  <w:IgnoreMixedContent>false</w:IgnoreMixedContent>
+  <w:AlwaysShowPlaceholderText>false</w:AlwaysShowPlaceholderText>
+  <w:DoNotPromoteQF/>
+  <w:LidThemeOther>EN-US</w:LidThemeOther>
+  <w:LidThemeAsian>X-NONE</w:LidThemeAsian>
+  <w:LidThemeComplexScript>X-NONE</w:LidThemeComplexScript>
+  <w:Compatibility>
+   <w:BreakWrappedTables/>
+   <w:SnapToGridInCell/>
+   <w:WrapTextWithPunct/>
+   <w:UseAsianBreakRules/>
+   <w:DontGrowAutofit/>
+   <w:SplitPgBreakAndParaMark/>
+   <w:DontVertAlignCellWithSp/>
+   <w:DontBreakConstrainedForcedTables/>
+   <w:DontVertAlignInTxbx/>
+   <w:Word11KerningPairs/>
+   <w:CachedColBalance/>
+  </w:Compatibility>
+  <w:BrowserLevel>MicrosoftInternetExplorer4</w:BrowserLevel>
+  <m:mathPr>
+   <m:mathFont m:val="Cambria Math"/>
+   <m:brkBin m:val="before"/>
+   <m:brkBinSub m:val="&#45;-"/>
+   <m:smallFrac m:val="off"/>
+   <m:dispDef/>
+   <m:lMargin m:val="0"/>
+   <m:rMargin m:val="0"/>
+   <m:defJc m:val="centerGroup"/>
+   <m:wrapIndent m:val="1440"/>
+   <m:intLim m:val="subSup"/>
+   <m:naryLim m:val="undOvr"/>
+  </m:mathPr></w:WordDocument>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <w:LatentStyles DefLockedState="false" DefUnhideWhenUsed="false"
+  DefSemiHidden="false" DefQFormat="false" LatentStyleCount="267">
+  <w:LsdException Locked="false" QFormat="true" Name="Normal"/>
+  <w:LsdException Locked="false" QFormat="true" Name="heading 1"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   QFormat="true" Name="heading 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   QFormat="true" Name="heading 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   QFormat="true" Name="heading 4"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   QFormat="true" Name="heading 5"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   QFormat="true" Name="heading 6"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   QFormat="true" Name="heading 7"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   QFormat="true" Name="heading 8"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   QFormat="true" Name="heading 9"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   QFormat="true" Name="caption"/>
+  <w:LsdException Locked="false" QFormat="true" Name="Title"/>
+  <w:LsdException Locked="false" Priority="1" Name="Default Paragraph Font"/>
+  <w:LsdException Locked="false" QFormat="true" Name="Subtitle"/>
+  <w:LsdException Locked="false" QFormat="true" Name="Strong"/>
+  <w:LsdException Locked="false" QFormat="true" Name="Emphasis"/>
+  <w:LsdException Locked="false" Priority="99" Name="No List"/>
+  <w:LsdException Locked="false" Priority="99" SemiHidden="true"
+   Name="Placeholder Text"/>
+  <w:LsdException Locked="false" Priority="1" QFormat="true" Name="No Spacing"/>
+  <w:LsdException Locked="false" Priority="60" Name="Light Shading"/>
+  <w:LsdException Locked="false" Priority="61" Name="Light List"/>
+  <w:LsdException Locked="false" Priority="62" Name="Light Grid"/>
+  <w:LsdException Locked="false" Priority="63" Name="Medium Shading 1"/>
+  <w:LsdException Locked="false" Priority="64" Name="Medium Shading 2"/>
+  <w:LsdException Locked="false" Priority="65" Name="Medium List 1"/>
+  <w:LsdException Locked="false" Priority="66" Name="Medium List 2"/>
+  <w:LsdException Locked="false" Priority="67" Name="Medium Grid 1"/>
+  <w:LsdException Locked="false" Priority="68" Name="Medium Grid 2"/>
+  <w:LsdException Locked="false" Priority="69" Name="Medium Grid 3"/>
+  <w:LsdException Locked="false" Priority="70" Name="Dark List"/>
+  <w:LsdException Locked="false" Priority="71" Name="Colorful Shading"/>
+  <w:LsdException Locked="false" Priority="72" Name="Colorful List"/>
+  <w:LsdException Locked="false" Priority="73" Name="Colorful Grid"/>
+  <w:LsdException Locked="false" Priority="60" Name="Light Shading Accent 1"/>
+  <w:LsdException Locked="false" Priority="61" Name="Light List Accent 1"/>
+  <w:LsdException Locked="false" Priority="62" Name="Light Grid Accent 1"/>
+  <w:LsdException Locked="false" Priority="63" Name="Medium Shading 1 Accent 1"/>
+  <w:LsdException Locked="false" Priority="64" Name="Medium Shading 2 Accent 1"/>
+  <w:LsdException Locked="false" Priority="65" Name="Medium List 1 Accent 1"/>
+  <w:LsdException Locked="false" Priority="99" SemiHidden="true" Name="Revision"/>
+  <w:LsdException Locked="false" Priority="34" QFormat="true"
+   Name="List Paragraph"/>
+  <w:LsdException Locked="false" Priority="29" QFormat="true" Name="Quote"/>
+  <w:LsdException Locked="false" Priority="30" QFormat="true"
+   Name="Intense Quote"/>
+  <w:LsdException Locked="false" Priority="66" Name="Medium List 2 Accent 1"/>
+  <w:LsdException Locked="false" Priority="67" Name="Medium Grid 1 Accent 1"/>
+  <w:LsdException Locked="false" Priority="68" Name="Medium Grid 2 Accent 1"/>
+  <w:LsdException Locked="false" Priority="69" Name="Medium Grid 3 Accent 1"/>
+  <w:LsdException Locked="false" Priority="70" Name="Dark List Accent 1"/>
+  <w:LsdException Locked="false" Priority="71" Name="Colorful Shading Accent 1"/>
+  <w:LsdException Locked="false" Priority="72" Name="Colorful List Accent 1"/>
+  <w:LsdException Locked="false" Priority="73" Name="Colorful Grid Accent 1"/>
+  <w:LsdException Locked="false" Priority="60" Name="Light Shading Accent 2"/>
+  <w:LsdException Locked="false" Priority="61" Name="Light List Accent 2"/>
+  <w:LsdException Locked="false" Priority="62" Name="Light Grid Accent 2"/>
+  <w:LsdException Locked="false" Priority="63" Name="Medium Shading 1 Accent 2"/>
+  <w:LsdException Locked="false" Priority="64" Name="Medium Shading 2 Accent 2"/>
+  <w:LsdException Locked="false" Priority="65" Name="Medium List 1 Accent 2"/>
+  <w:LsdException Locked="false" Priority="66" Name="Medium List 2 Accent 2"/>
+  <w:LsdException Locked="false" Priority="67" Name="Medium Grid 1 Accent 2"/>
+  <w:LsdException Locked="false" Priority="68" Name="Medium Grid 2 Accent 2"/>
+  <w:LsdException Locked="false" Priority="69" Name="Medium Grid 3 Accent 2"/>
+  <w:LsdException Locked="false" Priority="70" Name="Dark List Accent 2"/>
+  <w:LsdException Locked="false" Priority="71" Name="Colorful Shading Accent 2"/>
+  <w:LsdException Locked="false" Priority="72" Name="Colorful List Accent 2"/>
+  <w:LsdException Locked="false" Priority="73" Name="Colorful Grid Accent 2"/>
+  <w:LsdException Locked="false" Priority="60" Name="Light Shading Accent 3"/>
+  <w:LsdException Locked="false" Priority="61" Name="Light List Accent 3"/>
+  <w:LsdException Locked="false" Priority="62" Name="Light Grid Accent 3"/>
+  <w:LsdException Locked="false" Priority="63" Name="Medium Shading 1 Accent 3"/>
+  <w:LsdException Locked="false" Priority="64" Name="Medium Shading 2 Accent 3"/>
+  <w:LsdException Locked="false" Priority="65" Name="Medium List 1 Accent 3"/>
+  <w:LsdException Locked="false" Priority="66" Name="Medium List 2 Accent 3"/>
+  <w:LsdException Locked="false" Priority="67" Name="Medium Grid 1 Accent 3"/>
+  <w:LsdException Locked="false" Priority="68" Name="Medium Grid 2 Accent 3"/>
+  <w:LsdException Locked="false" Priority="69" Name="Medium Grid 3 Accent 3"/>
+  <w:LsdException Locked="false" Priority="70" Name="Dark List Accent 3"/>
+  <w:LsdException Locked="false" Priority="71" Name="Colorful Shading Accent 3"/>
+  <w:LsdException Locked="false" Priority="72" Name="Colorful List Accent 3"/>
+  <w:LsdException Locked="false" Priority="73" Name="Colorful Grid Accent 3"/>
+  <w:LsdException Locked="false" Priority="60" Name="Light Shading Accent 4"/>
+  <w:LsdException Locked="false" Priority="61" Name="Light List Accent 4"/>
+  <w:LsdException Locked="false" Priority="62" Name="Light Grid Accent 4"/>
+  <w:LsdException Locked="false" Priority="63" Name="Medium Shading 1 Accent 4"/>
+  <w:LsdException Locked="false" Priority="64" Name="Medium Shading 2 Accent 4"/>
+  <w:LsdException Locked="false" Priority="65" Name="Medium List 1 Accent 4"/>
+  <w:LsdException Locked="false" Priority="66" Name="Medium List 2 Accent 4"/>
+  <w:LsdException Locked="false" Priority="67" Name="Medium Grid 1 Accent 4"/>
+  <w:LsdException Locked="false" Priority="68" Name="Medium Grid 2 Accent 4"/>
+  <w:LsdException Locked="false" Priority="69" Name="Medium Grid 3 Accent 4"/>
+  <w:LsdException Locked="false" Priority="70" Name="Dark List Accent 4"/>
+  <w:LsdException Locked="false" Priority="71" Name="Colorful Shading Accent 4"/>
+  <w:LsdException Locked="false" Priority="72" Name="Colorful List Accent 4"/>
+  <w:LsdException Locked="false" Priority="73" Name="Colorful Grid Accent 4"/>
+  <w:LsdException Locked="false" Priority="60" Name="Light Shading Accent 5"/>
+  <w:LsdException Locked="false" Priority="61" Name="Light List Accent 5"/>
+  <w:LsdException Locked="false" Priority="62" Name="Light Grid Accent 5"/>
+  <w:LsdException Locked="false" Priority="63" Name="Medium Shading 1 Accent 5"/>
+  <w:LsdException Locked="false" Priority="64" Name="Medium Shading 2 Accent 5"/>
+  <w:LsdException Locked="false" Priority="65" Name="Medium List 1 Accent 5"/>
+  <w:LsdException Locked="false" Priority="66" Name="Medium List 2 Accent 5"/>
+  <w:LsdException Locked="false" Priority="67" Name="Medium Grid 1 Accent 5"/>
+  <w:LsdException Locked="false" Priority="68" Name="Medium Grid 2 Accent 5"/>
+  <w:LsdException Locked="false" Priority="69" Name="Medium Grid 3 Accent 5"/>
+  <w:LsdException Locked="false" Priority="70" Name="Dark List Accent 5"/>
+  <w:LsdException Locked="false" Priority="71" Name="Colorful Shading Accent 5"/>
+  <w:LsdException Locked="false" Priority="72" Name="Colorful List Accent 5"/>
+  <w:LsdException Locked="false" Priority="73" Name="Colorful Grid Accent 5"/>
+  <w:LsdException Locked="false" Priority="60" Name="Light Shading Accent 6"/>
+  <w:LsdException Locked="false" Priority="61" Name="Light List Accent 6"/>
+  <w:LsdException Locked="false" Priority="62" Name="Light Grid Accent 6"/>
+  <w:LsdException Locked="false" Priority="63" Name="Medium Shading 1 Accent 6"/>
+  <w:LsdException Locked="false" Priority="64" Name="Medium Shading 2 Accent 6"/>
+  <w:LsdException Locked="false" Priority="65" Name="Medium List 1 Accent 6"/>
+  <w:LsdException Locked="false" Priority="66" Name="Medium List 2 Accent 6"/>
+  <w:LsdException Locked="false" Priority="67" Name="Medium Grid 1 Accent 6"/>
+  <w:LsdException Locked="false" Priority="68" Name="Medium Grid 2 Accent 6"/>
+  <w:LsdException Locked="false" Priority="69" Name="Medium Grid 3 Accent 6"/>
+  <w:LsdException Locked="false" Priority="70" Name="Dark List Accent 6"/>
+  <w:LsdException Locked="false" Priority="71" Name="Colorful Shading Accent 6"/>
+  <w:LsdException Locked="false" Priority="72" Name="Colorful List Accent 6"/>
+  <w:LsdException Locked="false" Priority="73" Name="Colorful Grid Accent 6"/>
+  <w:LsdException Locked="false" Priority="19" QFormat="true"
+   Name="Subtle Emphasis"/>
+  <w:LsdException Locked="false" Priority="21" QFormat="true"
+   Name="Intense Emphasis"/>
+  <w:LsdException Locked="false" Priority="31" QFormat="true"
+   Name="Subtle Reference"/>
+  <w:LsdException Locked="false" Priority="32" QFormat="true"
+   Name="Intense Reference"/>
+  <w:LsdException Locked="false" Priority="33" QFormat="true" Name="Book Title"/>
+  <w:LsdException Locked="false" Priority="37" SemiHidden="true"
+   UnhideWhenUsed="true" Name="Bibliography"/>
+  <w:LsdException Locked="false" Priority="39" SemiHidden="true"
+   UnhideWhenUsed="true" QFormat="true" Name="TOC Heading"/>
+ </w:LatentStyles>
+</xml><![endif]-->
+<style>
+<!--
+ /* Font Definitions */
+ @font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;
+	mso-font-charset:0;
+	mso-generic-font-family:roman;
+	mso-font-pitch:variable;
+	mso-font-signature:-1610611985 1107304683 0 0 159 0;}
+@font-face
+	{font-family:Tahoma;
+	panose-1:2 11 6 4 3 5 4 4 2 4;
+	mso-font-charset:0;
+	mso-generic-font-family:swiss;
+	mso-font-pitch:variable;
+	mso-font-signature:1627400839 -2147483648 8 0 66047 0;}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-parent:"";
+	margin:0in;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";
+	mso-fareast-font-family:"Times New Roman";
+	color:black;}
+p.MsoCommentText, li.MsoCommentText, div.MsoCommentText
+	{mso-style-unhide:no;
+	mso-style-link:"Comment Text Char";
+	margin:0in;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:10.0pt;
+	font-family:"Times New Roman","serif";
+	mso-fareast-font-family:"Times New Roman";
+	color:black;}
+span.MsoCommentReference
+	{mso-style-unhide:no;
+	mso-ansi-font-size:8.0pt;
+	mso-bidi-font-size:8.0pt;}
+a:link, span.MsoHyperlink
+	{mso-style-unhide:no;
+	color:#0000DF;
+	text-decoration:underline;
+	text-underline:single;}
+a:visited, span.MsoHyperlinkFollowed
+	{mso-style-unhide:no;
+	color:#8000A6;
+	text-decoration:underline;
+	text-underline:single;}
+p
+	{mso-style-unhide:no;
+	mso-margin-top-alt:auto;
+	margin-right:0in;
+	mso-margin-bottom-alt:auto;
+	margin-left:0in;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";
+	mso-fareast-font-family:"Times New Roman";
+	color:black;}
+p.MsoCommentSubject, li.MsoCommentSubject, div.MsoCommentSubject
+	{mso-style-unhide:no;
+	mso-style-parent:"Comment Text";
+	mso-style-link:"Comment Subject Char";
+	mso-style-next:"Comment Text";
+	margin:0in;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:10.0pt;
+	font-family:"Times New Roman","serif";
+	mso-fareast-font-family:"Times New Roman";
+	color:black;
+	font-weight:bold;}
+p.MsoAcetate, li.MsoAcetate, div.MsoAcetate
+	{mso-style-noshow:yes;
+	mso-style-unhide:no;
+	mso-style-link:"Balloon Text Char";
+	margin:0in;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:8.0pt;
+	font-family:"Tahoma","sans-serif";
+	mso-fareast-font-family:"Times New Roman";
+	color:windowtext;}
+p.MsoListParagraph, li.MsoListParagraph, div.MsoListParagraph
+	{mso-style-priority:34;
+	mso-style-unhide:no;
+	mso-style-qformat:yes;
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:.5in;
+	margin-bottom:.0001pt;
+	mso-add-space:auto;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";
+	mso-fareast-font-family:"Times New Roman";
+	color:black;}
+p.MsoListParagraphCxSpFirst, li.MsoListParagraphCxSpFirst, div.MsoListParagraphCxSpFirst
+	{mso-style-priority:34;
+	mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-type:export-only;
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:.5in;
+	margin-bottom:.0001pt;
+	mso-add-space:auto;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";
+	mso-fareast-font-family:"Times New Roman";
+	color:black;}
+p.MsoListParagraphCxSpMiddle, li.MsoListParagraphCxSpMiddle, div.MsoListParagraphCxSpMiddle
+	{mso-style-priority:34;
+	mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-type:export-only;
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:.5in;
+	margin-bottom:.0001pt;
+	mso-add-space:auto;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";
+	mso-fareast-font-family:"Times New Roman";
+	color:black;}
+p.MsoListParagraphCxSpLast, li.MsoListParagraphCxSpLast, div.MsoListParagraphCxSpLast
+	{mso-style-priority:34;
+	mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-type:export-only;
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:.5in;
+	margin-bottom:.0001pt;
+	mso-add-space:auto;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";
+	mso-fareast-font-family:"Times New Roman";
+	color:black;}
+span.CommentTextChar
+	{mso-style-name:"Comment Text Char";
+	mso-style-unhide:no;
+	mso-style-locked:yes;
+	mso-style-link:"Comment Text";
+	color:black;}
+span.CommentSubjectChar
+	{mso-style-name:"Comment Subject Char";
+	mso-style-unhide:no;
+	mso-style-locked:yes;
+	mso-style-parent:"Comment Text Char";
+	mso-style-link:"Comment Subject";
+	color:black;
+	font-weight:bold;}
+span.BalloonTextChar
+	{mso-style-name:"Balloon Text Char";
+	mso-style-unhide:no;
+	mso-style-locked:yes;
+	mso-style-link:"Balloon Text";
+	mso-ansi-font-size:8.0pt;
+	mso-bidi-font-size:8.0pt;
+	font-family:"Tahoma","sans-serif";
+	mso-ascii-font-family:Tahoma;
+	mso-hansi-font-family:Tahoma;
+	mso-bidi-font-family:Tahoma;
+	color:black;}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	mso-default-props:yes;
+	font-size:10.0pt;
+	mso-ansi-font-size:10.0pt;
+	mso-bidi-font-size:10.0pt;}
+@page WordSection1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.25in 1.0in 1.25in;
+	mso-header-margin:.5in;
+	mso-footer-margin:.5in;
+	mso-paper-source:0;}
+div.WordSection1
+	{page:WordSection1;}
+ /* List Definitions */
+ @list l0
+	{mso-list-id:1686126196;
+	mso-list-type:hybrid;
+	mso-list-template-ids:1616651512 67698689 67698691 67698693 67698689 67698691 67698693 67698689 67698691 67698693;}
+@list l0:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:.25in;
+	text-indent:-.25in;
+	font-family:Symbol;}
+@list l0:level2
+	{mso-level-tab-stop:1.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l0:level3
+	{mso-level-tab-stop:1.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l0:level4
+	{mso-level-tab-stop:2.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l0:level5
+	{mso-level-tab-stop:2.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l0:level6
+	{mso-level-tab-stop:3.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l0:level7
+	{mso-level-tab-stop:3.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l0:level8
+	{mso-level-tab-stop:4.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l0:level9
+	{mso-level-tab-stop:4.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+ol
+	{margin-bottom:0in;}
+ul
+	{margin-bottom:0in;}
+div.MsoNormal1 {mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-parent:"";
+	margin:0in;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";
+	mso-fareast-font-family:"Times New Roman";
+	color:black;}
+li.MsoNormal1 {mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-parent:"";
+	margin:0in;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";
+	mso-fareast-font-family:"Times New Roman";
+	color:black;}
+p.MsoNormal1 {mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-parent:"";
+	margin:0in;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";
+	mso-fareast-font-family:"Times New Roman";
+	color:black;}
+div.MsoNormal2 {mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-parent:"";
+	margin:0in;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";
+	mso-fareast-font-family:"Times New Roman";
+	color:black;}
+li.MsoNormal2 {mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-parent:"";
+	margin:0in;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";
+	mso-fareast-font-family:"Times New Roman";
+	color:black;}
+p.MsoNormal2 {mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-parent:"";
+	margin:0in;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";
+	mso-fareast-font-family:"Times New Roman";
+	color:black;}
+span.MsoHyperlink1 {mso-style-unhide:no;
+	color:#0000DF;
+	text-decoration:underline;
+	text-underline:single;}
+div.MsoNormal3 {mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-parent:"";
+	margin:0in;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";
+	mso-fareast-font-family:"Times New Roman";
+	color:black;}
+li.MsoNormal3 {mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-parent:"";
+	margin:0in;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";
+	mso-fareast-font-family:"Times New Roman";
+	color:black;}
+p.MsoNormal3 {mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-parent:"";
+	margin:0in;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";
+	mso-fareast-font-family:"Times New Roman";
+	color:black;}
+div.MsoNormal4 {mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-parent:"";
+	margin:0in;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";
+	mso-fareast-font-family:"Times New Roman";
+	color:black;}
+li.MsoNormal4 {mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-parent:"";
+	margin:0in;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";
+	mso-fareast-font-family:"Times New Roman";
+	color:black;}
+p.MsoNormal4 {mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-parent:"";
+	margin:0in;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";
+	mso-fareast-font-family:"Times New Roman";
+	color:black;}
+p.MsoNormal31 {mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-parent:"";
+	margin:0in;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";
+	mso-fareast-font-family:"Times New Roman";
+	color:black;}
+p.MsoNormal41 {mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-parent:"";
+	margin:0in;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";
+	mso-fareast-font-family:"Times New Roman";
+	color:black;}
+span.MsoHyperlink2 {mso-style-unhide:no;
+	color:#0000DF;
+	text-decoration:underline;
+	text-underline:single;}
+-->
+</style>
+<!--[if gte mso 10]>
+<style>
+ /* Style Definitions */
+ table.MsoNormalTable
+	{mso-style-name:"Table Normal";
+	mso-tstyle-rowband-size:0;
+	mso-tstyle-colband-size:0;
+	mso-style-noshow:yes;
+	mso-style-priority:99;
+	mso-style-qformat:yes;
+	mso-style-parent:"";
+	mso-padding-alt:0in 5.4pt 0in 5.4pt;
+	mso-para-margin:0in;
+	mso-para-margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:10.0pt;
+	font-family:"Times New Roman","serif";}
+</style>
+<![endif]--><!--[if gte mso 9]><xml>
+ <o:shapedefaults v:ext="edit" spidmax="21506"/>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <o:shapelayout v:ext="edit">
+  <o:idmap v:ext="edit" data="1"/>
+ </o:shapelayout></xml><![endif]-->
+</head>
+
+<body bgcolor=white background="background.gif" lang=EN-US link="#0000DF"
+vlink="#8000A6" style='tab-interval:.5in'>
+
+<div class=WordSection1>
+
+<p class=MsoNormal><b style='mso-bidi-font-weight:normal'>	Things handed out or
+covered in class: 
+</b></p>
+<p class=MsoNormal><em>(The Boilermaker shaded row indicates where we are in the current semester. The material after that is from the last time I taught the class and is for your reference only. It will likely change some in this semester's teaching.)
+    <o:p></o:p>
+</em></p>
+<p class=MsoNormal>&nbsp;</p>
+<p class=MsoNormal><img src="images/new.png" width="177" height="127"></p>
+<h3><em>New topics this year:</em></h3>
+<ol>
+  <li>
+    <h3>Data analytics for reliability</h3>
+  </li>
+  <li>
+    <h3>Secure coding practices</h3>
+  </li>
+</ol>
+<table class=MsoNormalTable border=1 cellpadding=0 style='mso-cellspacing:1.5pt;
+ border:outset 2.25pt;mso-yfti-tbllook:1184;mso-padding-alt:0in 5.4pt 0in 5.4pt'>
+  <tr style='mso-yfti-irow:0;mso-yfti-firstrow:yes'>
+  <td width="164" style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><b>Title</b></p>  </td>
+  <td width="70" style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><b>Start<o:p></o:p></b></p>
+  <p class=MsoNormal><b>Date</b></p>  </td>
+  <td width="138" valign=top style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><b>Document<o:p></o:p></b></p>  </td>
+  <td width="139" valign=top style='padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal><b>Notes</b></p>  </td>
+  <td width="457" valign=top style='padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal><b>Reference<o:p></o:p></b></p>
+  <p class=MsoNormal><b>Material<o:p></o:p></b></p>  </td>
+ </tr>
+ <tr style='mso-yfti-irow:1'>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal>Course Information</p>  </td>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal>Aug 15</p>  </td>
+  <td valign=top style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><a href="handouts/Administrative/courseinfo.html">htm</a><a href="handouts/Administrative/courseinfo.html">l</a></p>
+  <p class=MsoNormal>&nbsp;</p>
+  <p class=MsoNormal><a href="handouts/Administrative/courseinfo.pdf">pdf</a></p></td>
+  <td valign=top style='padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal><o:p>&nbsp;</o:p></p>  </td>
+  <td valign=top style='padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal>
+    <o:p></o:p>
+    <a href="handouts/Administrative/courseflier_ece.pdf">Flyer [ pdf ]</a></p>  </td>
+ </tr>
+ <tr style='mso-yfti-irow:1'>
+   <td style='padding:.75pt .75pt .75pt .75pt'>Lecture Outline</td>
+   <td style='padding:.75pt .75pt .75pt .75pt'>Aug 15</td>
+   <td valign=top style='padding:.75pt .75pt .75pt .75pt'><p><a href="handouts/Administrative/courseoutline.html">html</a></p>
+     <p><a href="handouts/Administrative/courseoutline.pdf">pdf</a></p></td>
+   <td valign=top style='padding:0in 5.4pt 0in 5.4pt'>&nbsp;</td>
+   <td valign=top style='padding:0in 5.4pt 0in 5.4pt'>&nbsp;</td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal>Course FAQ</p>  </td>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal>Aug 15</p>  </td>
+  <td valign=top style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><a href="handouts/Administrative/course_faq.html">html</a></p>  </td>
+  <td valign=top style='padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal><o:p>&nbsp;</o:p></p>  </td>
+  <td valign=top style='padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal><o:p>&nbsp;</o:p>
+  </p>  </td>
+ </tr>
+ <tr style='mso-yfti-irow:2; color: #F00;'>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal>Motivation &amp; Introduction to Fault Tolerance Terms</p>  </td>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal>Aug 19-23</p></td>
+  <td valign=top style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><a href="handouts/Lectures/Intro.pdf">pdf</a></p>  </td>
+  <td valign=top style='padding: 0in 5.4pt 0in 5.4pt; color: #000;'><p><a href="handouts/Class&#32;Notes/intro_lec1.pdf">Lec 1</a>  <br>
+    <a href="handouts/Class&#32;Notes/intro_lec2.pdf">Lec 2</a>  <br>
+    <br>
+    </p></td>
+  <td valign=top style='padding: 0in 5.4pt 0in 5.4pt; color: #000;'><p>Bug detection ALA #1 [ <a href="handouts/ProblemSheets/bug_detection.pdf">pdf</a> ] # 2 [ <a href="handouts/ProblemSheets/bug_detection_2.pdf">pdf</a> ]</p>
+    <p>Excerpt from book &quot;Principles of Computer System Design&quot; by Saltzer and Kaashoek, Chapter 8 &quot;Fault Tolerance: Reliable Systems from Unreliable Components&quot; [ <a href="handouts/References/fault-tolerance-basics_book_saltzer-kaashoek_2009.pdf">pdf</a> ]</p></td>
+ </tr>
+ <tr style='mso-yfti-irow:2'>
+   <td style='padding:.75pt .75pt .75pt .75pt'>Coding</td>
+   <td style='padding:.75pt .75pt .75pt .75pt'>Aug 31</td>
+   <td valign=top style='padding:.75pt .75pt .75pt .75pt'>&nbsp;</td>
+   <td valign=top style='padding:0in 5.4pt 0in 5.4pt'><a href="handouts/Class&#32;Notes/coding_lec1.pdf">Lec 1</a></td>
+   <td valign=top style='padding:0in 5.4pt 0in 5.4pt'>Excerpt from book by Iyer, Kalbarczyk, Nakka [ <a href="handouts/References/coding_ravi-book.pdf">pdf</a> ]</td>
+ </tr>
+ <tr style='mso-yfti-irow:2'>
+   <td style='padding:.75pt .75pt .75pt .75pt'>Reliability Analysis: Discrete case</td>
+   <td style='padding:.75pt .75pt .75pt .75pt'>Not covered</td>
+   <td valign=top style='padding:.75pt .75pt .75pt .75pt'><a href="handouts/Lectures/DiscreteAnalysis.pdf">pdf</a></td>
+   <td valign=top style='padding:0in 5.4pt 0in 5.4pt'><br></td>
+   <td valign=top style='padding:0in 5.4pt 0in 5.4pt'><p>Problem sheet [ <a href="handouts/ProblemSheets/discrete_distribution_problems.pdf">pdf</a> ]</p>
+      KST book Chapter 2: pp. 61-93 </td>
+ </tr>
+ <tr style='mso-yfti-irow:2'>
+   <td style='padding:.75pt .75pt .75pt .75pt'>Reliability Analysis: Continuous case</td>
+   <td style='padding:.75pt .75pt .75pt .75pt'>Sep 3</td>
+   <td valign=top style='padding:.75pt .75pt .75pt .75pt'><p><a href="handouts/Lectures/Continuous_Distributions_part1.pdf">pdf - Part 1</a></p>
+     <p><a href="handouts/Lectures/Continuous_Distributions_part2.pdf">pdf - Part 2</a></p>
+     <p><a href="https://mediaspace.itap.purdue.edu/media/ECE+695+Quantitative+Assessment+of+Reliability_1/1_hvvm1opc">Video lecture 1</a></p>
+<p><a href="https://mediaspace.itap.purdue.edu/media/ECE+695+Quantitative+Assessment+of+Reliability_2/1_05zbwd7v">Video lecture 2</a></p>
+     <p><a href="https://mediaspace.itap.purdue.edu/media/ECE+695+Quantitative+Assessment+of+Reliability_3/1_42tbj67k">Video lecture 3</a></p></td>
+   <td valign=top style='padding:0in 5.4pt 0in 5.4pt'><a href="handouts/Class&#32;Notes/continuous_analysis_lec1.pdf">Lec 1</a></td>
+   <td valign=top style='padding:0in 5.4pt 0in 5.4pt'><p>Problem sheet [ <a href="handouts/ProblemSheets/continuous_distribution_problems.pdf">pdf</a> ]</p> <p>Sample Solution: See BlackBoard</p>
+     <p>KST book Chapter 3: pp. 115-165 </p>
+     <p>Calculus cheat sheet [ <a href="handouts/References/Common_Derivatives_Integrals.pdf">pdf</a> ]</p>
+     <p>Case study - LANL failure data [ <a href="handouts/References/continuous_distribution_case_study.pdf">pdf</a> ] </p></td>
+ </tr>
+ <tr style='mso-yfti-irow:2'>
+   <td style='padding:.75pt .75pt .75pt .75pt'>Hardware</td>
+   <td style='padding:.75pt .75pt .75pt .75pt'>Sep 11</td>
+   <td valign=top style='padding:.75pt .75pt .75pt .75pt'><p><a href="handouts/Lectures/Hardware.pdf">pdf</a></p>
+     <p><a href="https://mediaspace.itap.purdue.edu/media/ECE+695+Hardware+Reliability_1/1_z5kvhqok">Video lecture 1</a></p>
+     <p><a href="https://mediaspace.itap.purdue.edu/media/ECE+695+Hardware+Reliability_2/1_kkosnddy">Video lecture 2</a></p></td>
+   <td valign=top style='padding:0in 5.4pt 0in 5.4pt'><a href="handouts/Class&#32;Notes/hardware_lec1.pdf">Lec 1</a> <br>
+   <a href="handouts/Class&#32;Notes/hardware_lec2.pdf">Lec 2</a> <br>
+   <a href="handouts/Class&#32;Notes/hardware_lec3.pdf">Lec 3</a> <br>
+   </td>
+   <td valign=top style='padding:0in 5.4pt 0in 5.4pt'>Siewiorek and Swarz book, pp. 138-191</td>
+ </tr>
+ <tr style='mso-yfti-irow:2'>
+   <td style='padding:.75pt .75pt .75pt .75pt'>Software</td>
+   <td style='padding:.75pt .75pt .75pt .75pt'>Sep 20 </td>
+   <td valign=top style='padding:.75pt .75pt .75pt .75pt'><p><a href="handouts/Lectures/Software.pdf">pdf</a></p>
+     <p><a href="https://mediaspace.itap.purdue.edu/media/ECE+695_+Software+Fault+Tolerance+-+Part+1/1_2ne4sebu">Video lecture: basics</a> </p>
+     <p><a href="https://mediaspace.itap.purdue.edu/media/ECE+695_+Software+Fault+Tolerance+-+Part+2/1_kgsh3ljr">Video lecture: Process pairs</a></p>
+     <p><a href="https://mediaspace.itap.purdue.edu/media/ECE+695_+Software+Fault+Tolerance+-+Part+3/1_1wbjohpc">Video lecture: Robust data structures: structural integrity</a></p></td>
+   <td valign=top style='padding:0in 5.4pt 0in 5.4pt'><a href="handouts/Class&#32;Notes/software_lec1.pdf">Lec 1</a> <br>
+   <a href="handouts/Class&#32;Notes/software_lec2.pdf">Lec 2</a> <br>
+      <a href="handouts/Class&#32;Notes/software_lec3.pdf">Lec 3</a>
+</td>
+   <td valign=top style='padding:0in 5.4pt 0in 5.4pt'><p>ALA on multi-version software [ <a href="handouts/ProblemSheets/ala_multiversionsoftware.pdf">pdf</a> ] </p>
+     <p>ALA on multi-version software - 2 [ <a href="handouts/ProblemSheets/ala_multiversionsoftware_2.pdf">pdf</a> ] </p>
+     <p>&quot;Robust search methods for B-trees&quot; Fujimura and Jalote, FTCS-88. [ <a href="handouts/References/robustbtree_jalote_ftcs88.pdf">Paper</a> ] [ <a href="handouts/References/robustbtree_jalote_ftcs88_slides.pdf">Slides</a> ]</p>
+     <p>&nbsp;</p></td>
+ </tr>
+ <tr style='mso-yfti-irow:2'">
+   <td style='padding:.75pt .75pt .75pt .75pt'>Secure Coding</td>
+   <td style='padding:.75pt .75pt .75pt .75pt'>Oct 11</td>
+   <td valign=top style='padding:.75pt .75pt .75pt .75pt'><a href="handouts/Lectures/Coding.pdf">pdf</a></td>
+   <td valign=top style='padding:0in 5.4pt 0in 5.4pt'><a href="handouts/Class&#32;Notes/secure_coding_lec1.pdf">Lec 1</a> <br></td>
+   <td valign=top style='padding: 0in 5.4pt 0in 5.4pt;'>ALA on coding vulnerabilities [ <a href="handouts/ProblemSheets/ala_securecoding.pdf">pdf</a> ]</td>
+ </tr>
+ <tr style='mso-yfti-irow:2'>
+   <td style='padding:.75pt .75pt .75pt .75pt'>Distributed protocol primitives - broadcast and agreement</td>
+   <td style='padding:.75pt .75pt .75pt .75pt'>Oct 16</td>
+   <td valign=top style='padding:.75pt .75pt .75pt .75pt'><p><a href="handouts/Lectures/DistributedPrimitives.pdf">pdf </a></p>
+<p>&nbsp;</p></td>
+   <td valign=top style='padding:0in 5.4pt 0in 5.4pt'><a href="handouts/Class&#32;Notes/distributed_primitives_lec1.pdf">Lec 1</a><br>
+   <a href="handouts/Class&#32;Notes/distributed_primitives_lec2.pdf">Lec 2</a></td>
+   <td valign=top style='padding:0in 5.4pt 0in 5.4pt'><p>&ldquo;Fault Tolerance in Distributed Systems&rdquo; by Pankaj Jalote, Prentice Hall. Chapter 4 &ndash; Broadcast. [ <a href="handouts/References/Chapt&#32;4&#32;-&#32;Broadcast&#32;-&#32;jalote.pdf">pdf</a> ]</p>
+     <p>&ldquo;Advanced Concepts in Operating Systems&rdquo; by Singhal and Shivaratri, McGraw Hill. Chapter 8 &ndash; Agreement. [ <a href="handouts/References/Chapt&#32;8&#32;-&#32;Agreement&#32;Proto&#32;-&#32;singhal.pdf">pdf</a> ]</p>
+     <p>&ldquo;Advanced Concepts in Operating Systems&rdquo; by Singhal and Shivaratri, McGraw Hill. Chapter 13 &ndash; Commit Protocols. [ <a href="handouts/References/Chapt&#32;13&#32;-&#32;Commit&#32;-&#32;singhal-shivaratri.pdf">pdf</a> ]</p></td>
+ </tr>
+ <tr style='mso-yfti-irow:2'">
+   <td style='padding:.75pt .75pt .75pt .75pt'>Cryptocurrencies</td>
+   <td style='padding:.75pt .75pt .75pt .75pt'>Nov 4</td>
+   <td valign=top style='padding:.75pt .75pt .75pt .75pt'><a href="handouts/Lectures/aniket_CryptocurrenciesLecture.pdf">pdf</a></td>
+   <td valign=top style='padding:0in 5.4pt 0in 5.4pt'></td>
+   <td valign=top style='padding: 0in 5.4pt 0in 5.4pt;'></td>
+ </tr>
+ <tr style='mso-yfti-irow:2'>
+      <td style='padding:.75pt .75pt .75pt .75pt'>Modeling and Simulation</td>
+   <td style='padding:.75pt .75pt .75pt .75pt'>Nov 6</td>
+   <td valign=top style='padding:.75pt .75pt .75pt .75pt'><p><a href="handouts/Lectures/Modeling.pdf">pdf</a></p>
+     <p>Stochastic    Activity Networks</p>
+<p><a href="https://mediaspace.itap.purdue.edu/media/ECE+695B+Spring+2009+Modeling+Lecture_part1/1_jphyh8kh">Lecture 3</a> (on video) &ndash;    Stochastic Activity Networks</p>
+     <p><a href="https://mediaspace.itap.purdue.edu/media/ECE+695B+Spring+2009+Modeling+Lecture_part2/1_4qe1ciso">Lecture 4</a> (on video) &ndash;    Stochastic Activity Networks</p></td>
+   <td valign=top style='padding:0in 5.4pt 0in 5.4pt'><a href="handouts/Class&#32;Notes/modeling_lec1.pdf">Lec 1</a><br>
+</td>
+   <td valign=top style='padding:0in 5.4pt 0in 5.4pt'><p>Markov process: Trivedi book, pp. 337-356</p>
+     <p>Ken Keefe's presentation and support material for Mobius: <a href="http://go.illinois.edu/bagchi">URL</a></p></td>
+ </tr>
+ <tr style='mso-yfti-irow:2'>
+   <td style='padding:.75pt .75pt .75pt .75pt'>Recovery</td>
+   <td style='padding:.75pt .75pt .75pt .75pt'><p>Nov 15</p></td>
+   <td valign=top style='padding:.75pt .75pt .75pt .75pt'><a href="handouts/Lectures/Recovery.pdf">pdf</a></td>
+   
+   <td valign="top" style="padding:0in 5.4pt 0in 5.4pt">&nbsp;<a href="handouts/Class&#32;Notes/recovery_lec1.pdf">Lec 1</a></td><td valign=top style='padding:0in 5.4pt 0in 5.4pt'><p>D. K. Pradhan,    &ldquo;Fault Tolerant Computer System Design&rdquo;, Chapter 3.10 (&ldquo;Forward recovery&rdquo;).</p>
+     <p>Singhal and Shivaratri, &ldquo;Advanced    Concepts in Operating Systems&rdquo;, Chapter 12: Recovery (&ldquo;Backward recovery&rdquo;).</p>
+     <p>Synchronous Checokpointing:    &ldquo;Checkpointing and Rollback-Recovery for Distributed Systems&rdquo; by R. Koo and    S. Toueg, IEEE Transactions on Software    Engineering, Jan 1987, pp. 23-31.</p>
+     <p>Asynchronous Checkpointing:    &ldquo;Crash Recovery with Little Overhead&rdquo; by T. Juang    and S. Venkatesan, 11th International Conference on    Distributed Computing Systems, May 1991, pp. 454-461.</p></td>
+ </tr>
+<tr style='mso-yfti-irow:2'>
+   <td style='padding:.75pt .75pt .75pt .75pt'>Big Data</td>
+   <td style='padding:.75pt .75pt .75pt .75pt'><p>Nov 25</p></td>
+   <td valign=top style='padding:.75pt .75pt .75pt .75pt'><p><a href="handouts/Lectures/BigData_security.pdf">pdf</a></p></td>
+   <td valign=top style='padding:0in 5.4pt 0in 5.4pt'><a href="handouts/Class&#32;Notes/big_data_lec1.pdf">Lec 1</a><br>
+   <a href="handouts/Class&#32;Notes/big_data_lec2.pdf">Lec 2</a>&nbsp;</td>
+   <td valign=top style='padding:0in 5.4pt 0in 5.4pt'><p>&nbsp;</p></td>
+</tr>
+<tr style='mso-yfti-irow:2'         bgcolor="#FF990">
+   <td style='padding:.75pt .75pt .75pt .75pt'>Putting it all together</td>
+   <td style='padding:.75pt .75pt .75pt .75pt'>Dec 5</td>
+   <td valign=top style='padding:.75pt .75pt .75pt .75pt'><a href="handouts/Lectures/Wrapup.pdf">pdf</a></td>
+   <td valign=top style='padding:0in 5.4pt 0in 5.4pt'>&nbsp;</td>
+   <td valign=top style='padding:0in 5.4pt 0in 5.4pt'><span style="padding: 0in 5.4pt 0in 5.4pt; color: #F00;">Not covered</span></td>
+</tr>
+
+<tr style='mso-yfti-irow:2'>
+  <td colspan="5" style='padding: .75pt .75pt .75pt .75pt; color: #F00;'><strong>Topics Not Covered Yet</strong></td>
+  </tr>
+<tr style='mso-yfti-irow:2'>
+   <td style='padding:.75pt .75pt .75pt .75pt'>Validation</td>
+   <td style='padding:.75pt .75pt .75pt .75pt'>&nbsp;</td>
+   <td valign=top style='padding:.75pt .75pt .75pt .75pt'><p><a href="handouts/Lectures/Validation.pdf">pdf</a></p>
+     <p>&nbsp;</p>
+     <p>&nbsp;</p></td>
+   <td valign=top style='padding:0in 5.4pt 0in 5.4pt'>&nbsp;</td>
+   <td valign=top style='padding:0in 5.4pt 0in 5.4pt'>&nbsp;</td>
+ </tr>
+ <tr style='mso-yfti-irow:2'>
+   <td style='padding:.75pt .75pt .75pt .75pt'>Replication</td>
+   <td style='padding:.75pt .75pt .75pt .75pt'>&nbsp;</td>
+   <td valign=top style='padding:.75pt .75pt .75pt .75pt'><p><a href="handouts/Lectures/Replication.pdf">pdf</a></p>
+     <p class=MsoNormal1><span style='color:windowtext'><a
+  href="https://mediaspace.itap.purdue.edu/media/ECE+695+Replication+Lecture_1/1_mp7mwdu7">Lecture 1</a> (online
+       lecture) &ndash;
+       <o:p></o:p>
+     </span></p>
+     <p class=MsoNormal1><span style='color:windowtext'>Basics, Optimistic
+       replication (<a href="https://engineering.purdue.edu/FTC/handouts/Class&#32;Notes/replication_video_lec1.pdf">scan
+         of handout</a>)
+       <o:p></o:p>
+     </span></p>
+     <p class=MsoNormal1><span style='color:windowtext'><a
+  href="https://mediaspace.itap.purdue.edu/media/ECE+695+Replication+Lecture_2/1_ibwag8dt">Lecture 2</a> (online
+       lecture) &ndash;
+       <o:p></o:p>
+     </span></p>
+     <p class=MsoNormal1><span style='color:windowtext'>Pessimistic replication (<a
+  href="https://engineering.purdue.edu/FTC/handouts/Class&#32;Notes/replication_video_lec2.pdf">scan of handout</a>)
+       <o:p></o:p>
+     </span></p>
+     <p class=MsoNormal1><a href="https://mediaspace.itap.purdue.edu/media/ECE+695+Replication+Lecture_3/1_6tolhb9r">Lecture 3</a> (online lecture)      <span style="color:windowtext">&ndash;</span> Pessimistic concurrency control - hierarchical voting approach, dynamic voting approach.                      </p>
+     <p class=MsoNormal1><a href="https://mediaspace.itap.purdue.edu/media/ECE+695+Replication+Lecture_4/1_kxm01co2">Lecture 4</a> (online lecture) <span style="color:windowtext">&ndash;</span></p>
+      from dynamic voting up to quantitative determination of optimal replication degree
+      <p class=MsoNormal1>&nbsp;</p>
+     <p class=MsoNormal1>&nbsp;</p>
+     <p>&nbsp;</p></td>
+   <td valign=top style='padding:0in 5.4pt 0in 5.4pt'><p>&nbsp;</p></td>
+   <td valign=top style='padding:0in 5.4pt 0in 5.4pt'><p>&nbsp;</p>
+     <p>Pankaj Jalote book Chapter 7 &quot;Data replication and resiliency&quot; [ <a href="handouts/References/replication_jalote_scan.pdf">pdf</a> ]</p></td>
+ </tr>
+ <tr style='mso-yfti-irow:2'>
+   <td style='padding:.75pt .75pt .75pt .75pt'>Putting it all together: AWS, Hadoop</td>
+   <td style='padding:.75pt .75pt .75pt .75pt'></td>
+   <td valign=top style='padding:.75pt .75pt .75pt .75pt'><a href="handouts/Lectures/Integration.pdf">pdf</a></td>
+   <td valign=top style='padding:0in 5.4pt 0in 5.4pt'>&nbsp;</td>
+   <td valign=top style='padding:0in 5.4pt 0in 5.4pt'><p>&ldquo;Amazon Web Services - Architecting for The Cloud: Best Practices,&rdquo; Jinesh Varia (Amazon), January 2011. [ <a href="handouts/References/AWS_Cloud_Best_Practices.pdf">pdf</a> ]</p>
+     <p>&ldquo;On Designing and Deploying Internet-Scale Services,&rdquo; James Hamilton - Windows Live Services Platform, pp. 231-242 of the Proceedings of the 21st Large Installation System Administration Conference (LISA '07). </p></td>
+ </tr>
+</table>
+
+<p class=MsoNormal><span style='mso-tab-count:1'>            </span></p>
+
+<p class=MsoNormal><b style='mso-bidi-font-weight:normal'>Administrative
+Announcements: <o:p></o:p></b></p>
+
+<table class=MsoNormalTable border=1 cellpadding=0 style='mso-cellspacing:1.5pt;
+ border:outset 2.25pt;mso-yfti-tbllook:1184;mso-padding-alt:0in 5.4pt 0in 5.4pt'>
+ <tr style='mso-yfti-irow:0;mso-yfti-firstrow:yes'>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><b>Title</b></p>  </td>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><b>Date</b></p>  </td>
+  <td valign=top style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><b>Document<o:p></o:p></b></p>  </td>
+ </tr>
+ <tr style='mso-yfti-irow:1'>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal>Course Information</p>  </td>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal>Aug 28</p>  </td>
+  <td valign=top style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><a href="handouts/Administrative/courseinfo.html">html</a></p>  </td>
+ </tr>
+ <tr style='mso-yfti-irow:2'>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal>Anonymous feedback form</p>  </td>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal>Aug 28</p>  </td>
+  <td valign=top style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><a href="feedback/feedback.html">html</a></p>  </td>
+ </tr>
+ <tr style='mso-yfti-irow:3'>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal>Regrade policy</p>  </td>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal>Aug 28</p>  </td>
+  <td valign=top style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><a href="https://engineering.purdue.edu/FTC/handouts/Administrative/regradepolicy_033105.html">html</a></p>  </td>
+ </tr>
+ <tr style='mso-yfti-irow:6'>
+   <td style='padding:.75pt .75pt .75pt .75pt'>Link to internal/private part of site</td>
+   <td style='padding:.75pt .75pt .75pt .75pt'>&nbsp;</td>
+   <td valign=top style='padding:.75pt .75pt .75pt .75pt'><a href="https://engineering.purdue.edu/FTC/handouts/Private/index.html">html</a></td>
+ </tr>
+ <tr style='mso-yfti-irow:6'>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal>Announcements (running document, updated</p>
+  <p class=MsoNormal>through the semester)</p>  </td>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal>Continuous</p>  </td>
+  <td valign=top style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><a href="announcements.html">html</a></p>  </td>
+ </tr>
+</table>
+
+<p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+margin-left:.25in'><o:p>&nbsp;</o:p></p>
+
+<p class=MsoNormal><a name=DependabilityInNews></a>”<b style='mso-bidi-font-weight:
+normal'>Dependability in the News” Discussions</b></p>
+
+<table class=MsoNormalTable border=1 cellpadding=0 style='mso-cellspacing:1.5pt;
+ border:outset 2.25pt;mso-yfti-tbllook:1184;mso-padding-alt:0in 5.4pt 0in 5.4pt'>
+ <tr style='mso-yfti-irow:0;mso-yfti-firstrow:yes;mso-yfti-lastrow:yes'>
+  <td width="57" valign=top style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><b style='mso-bidi-font-weight:normal'>Date<o:p></o:p></b></p>
+  </td>
+  <td width="169" style='padding:.75pt .75pt .75pt .75pt'>
+    <p class=MsoNormal><b style='mso-bidi-font-weight:normal'>Topic<o:p></o:p></b></p>
+  </td>
+  <td width="199" valign=top style='padding:0in 5.4pt 0in 5.4pt'>
+    <p class=MsoNormal><b style='mso-bidi-font-weight:normal'>Link</b></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:0;mso-yfti-firstrow:yes;mso-yfti-lastrow:yes'>
+   <td valign=top style='padding:.75pt .75pt .75pt .75pt'>Sep 23</td>
+   <td style='padding:.75pt .75pt .75pt .75pt'><p><a href="https://blog.cloudflare.com/details-of-the-cloudflare-outage-on-july-2-2019/">Cloudflare outage</a> (July 2019)</p></td>
+   <td valign=top style='padding:0in 5.4pt 0in 5.4pt'><p><a href="https://docs.google.com/presentation/d/1zBB8p9goi4yOuQIZPa8ehBSAsiQkgPhqS-1p5XiK5-U/edit?usp=sharing">Presentation </a> (Austin Ketter)</p></td>
+ </tr>
+ <tr style='mso-yfti-irow:0;mso-yfti-firstrow:yes;mso-yfti-lastrow:yes'>
+   <td valign=top style='padding:.75pt .75pt .75pt .75pt'>Sep 23</td>
+   <td style='padding:.75pt .75pt .75pt .75pt'><a href="https://status.cloud.google.com/incident/cloud-networking/19009">Google Cloud outage</a> (June 2019)</td>
+   <td valign=top style='padding:0in 5.4pt 0in 5.4pt'><p><a href="https://drive.google.com/file/d/1jen-ltAB8hJKVivi1EIuYlqj_mu8eiKz/view?usp=sharing">Presentation</a> (Hengyi Lin)</p>
+   <p><a href="https://drive.google.com/open?id=1kZs2ceBDGDunSZVd5NvfBSRmXjPEfMd-">Notes</a> (Tiantian Gong)</p></td>
+ </tr>
+</table>
+
+<p class=MsoNormal><b style='mso-bidi-font-weight:normal'><o:p>&nbsp;</o:p></b></p>
+
+<p class=MsoNormal><a name=Assignment></a><b style='mso-bidi-font-weight:normal'>Assignments:
+<o:p></o:p></b></p>
+
+<table class=MsoNormalTable border=1 cellpadding=0 style='mso-cellspacing:1.5pt;
+ border:outset 2.25pt;mso-yfti-tbllook:1184;mso-padding-alt:0in 5.4pt 0in 5.4pt'>
+ <tr style='mso-yfti-irow:0;mso-yfti-firstrow:yes'>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><b>Title</b></p>  </td>
+  <td width=92 style='width:69.05pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><b>Handout Date</b></p>  </td>
+  <td width=100 valign=top style='width:75.0pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><b>Due Date<o:p></o:p></b></p>  </td>
+  <td width=184 valign=top style='width:138.0pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal><b>Document<o:p></o:p></b></p>  </td>
+  <td width=123 valign=top style='width:92.25pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal><b>Solution<o:p></o:p></b></p>  </td>
+ </tr>
+ <tr style='mso-yfti-irow:1'>
+   <td style='padding:.75pt .75pt .75pt .75pt'>Getting to know you</td>
+   <td style='width:69.05pt;padding:.75pt .75pt .75pt .75pt'>Aug 24</td>
+   <td valign=middle style='width:75.0pt;padding:.75pt .75pt .75pt .75pt'>Aug 29</td>
+   <td valign=top style='width:138.0pt;padding:0in 5.4pt 0in 5.4pt'>On Blackboard</td>
+   <td valign=top style='width:92.25pt;padding:0in 5.4pt 0in 5.4pt'>&nbsp;</td>
+ </tr>
+ <tr style='mso-yfti-irow:1'>
+   <td style='padding:.75pt .75pt .75pt .75pt'>Quantitative assessment </td>
+   <td style='width:69.05pt;padding:.75pt .75pt .75pt .75pt'>Sep 14</td>
+   <td valign=middle style='width:75.0pt;padding:.75pt .75pt .75pt .75pt'>Sep 21</td>
+   <td valign=top style='width:138.0pt;padding:0in 5.4pt 0in 5.4pt'>On Blackboard</td>
+   <td valign=top style='width:92.25pt;padding:0in 5.4pt 0in 5.4pt'>On Blackboard</td>
+ </tr>
+ <tr style='mso-yfti-irow:1'>
+   <td style='padding:.75pt .75pt .75pt .75pt'>SAN modeling</td>
+   <td style='width:69.05pt;padding:.75pt .75pt .75pt .75pt'>Nov 7</td>
+   <td valign=middle style='width:75.0pt;padding:.75pt .75pt .75pt .75pt'>Nov 17</td>
+   <td valign=top style='width:138.0pt;padding:0in 5.4pt 0in 5.4pt'>On Blackboard</td>
+   <td valign=top style='width:92.25pt;padding:0in 5.4pt 0in 5.4pt'>On Blackboard</td>
+ </tr>
+ <tr style='mso-yfti-irow:1'>
+   <td style='padding:.75pt .75pt .75pt .75pt'>Chaos engineering</td>
+   <td style='width:69.05pt;padding:.75pt .75pt .75pt .75pt'>Dec 1</td>
+   <td valign=middle style='width:75.0pt;padding:.75pt .75pt .75pt .75pt'>Dec 6</td>
+   <td valign=top style='width:138.0pt;padding:0in 5.4pt 0in 5.4pt'>On Blackboard</td>
+   <td valign=top style='width:92.25pt;padding:0in 5.4pt 0in 5.4pt'>On Blackboard</td>
+ </tr>
+</table>
+
+<p><b>Exams:</b> </p>
+
+<table class=MsoNormalTable border=1 cellpadding=0 style='mso-cellspacing:1.5pt;
+ border:outset 2.25pt;mso-yfti-tbllook:1184;mso-padding-alt:0in 5.4pt 0in 5.4pt'>
+ <tr style='mso-yfti-irow:0;mso-yfti-firstrow:yes'>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><b style='mso-bidi-font-weight:normal'>Title<o:p></o:p></b></p>  </td>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><b>Handout Date</b></p>  </td>
+  <td valign=top style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><b>Due Date</b></p>  </td>
+  <td valign=top style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><b style='mso-bidi-font-weight:normal'>Questions<o:p></o:p></b></p>  </td>
+  <td valign=top style='padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal><b style='mso-bidi-font-weight:normal'>Clarifications<o:p></o:p></b></p>  </td>
+  <td valign=top style='padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal><b style='mso-bidi-font-weight:normal'>Solution<o:p></o:p></b></p>  </td>
+ </tr>
+ <tr style='mso-yfti-irow:1'>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal>Sample Midterm Exam </p>
+  <p class=MsoNormal>Questions</p>  </td>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal>Oct 20</p>  </td>
+  <td valign=top style='padding:.75pt .75pt .75pt .75pt'></td>
+  <td valign=top style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal>On Blackboard</p></td>
+  <td valign=top style='padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal>&nbsp;</p>  </td>
+  <td valign=top style='padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal>
+    <a href="handouts/ProblemSheets/midterm_exam_help_session_102119.pdf">Class Notes</a></p></td>
+ </tr>
+</table>
+
+<p><b>Active Learning Activity:</b> </p>
+
+<table width="452" border=1 cellpadding=0 class=MsoNormalTable style='mso-cellspacing:1.5pt;
+ border:outset 2.25pt;mso-yfti-tbllook:1184;mso-padding-alt:0in 5.4pt 0in 5.4pt'>
+ <tr style='mso-yfti-irow:0;mso-yfti-firstrow:yes;mso-yfti-lastrow:yes'>
+  <td width="99" style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><b>Title</b></p>
+  </td>
+  <td width=73 style='width:53.3pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><b>Handout Date</b></p>
+  </td>
+  <td width=264 valign=top style='width:66.65pt;padding:0in 5.4pt 0in 5.4pt'>
+    <p class=MsoNormal><b>Document<o:p></o:p></b></p>
+  </td>
+  </tr>
+ <tr style='mso-yfti-irow:0;mso-yfti-firstrow:yes;mso-yfti-lastrow:yes'>
+   <td style='padding:.75pt .75pt .75pt .75pt'>Bug detection</td>
+   <td style='width:53.3pt;padding:.75pt .75pt .75pt .75pt'>August 24</td>
+   <td valign=middle style='width:66.65pt;padding:0in 5.4pt 0in 5.4pt'><p><a href="https://engineering.purdue.edu/FTC/handouts/ProblemSheets/security_bug_detection.pdf">pdf </a></p></td>
+   </tr>
+ <tr style='mso-yfti-irow:0;mso-yfti-firstrow:yes;mso-yfti-lastrow:yes'>
+   <td style='padding:.75pt .75pt .75pt .75pt'>Mudboard: Bug detection, Parity</td>
+   <td style='width:53.3pt;padding:.75pt .75pt .75pt .75pt'>September 8</td>
+   <td valign=top style='width:66.65pt;padding:0in 5.4pt 0in 5.4pt'><a href="https://engineering.purdue.edu/FTC/handouts/ProblemSheets/mudboard_090814.pdf">pdf</a></td>
+   </tr>
+ <tr style='mso-yfti-irow:0;mso-yfti-firstrow:yes;mso-yfti-lastrow:yes'>
+   <td style='padding:.75pt .75pt .75pt .75pt'>Mudboard: Dependent failures</td>
+   <td style='width:53.3pt;padding:.75pt .75pt .75pt .75pt'>September 29</td>
+   <td valign=top style='width:66.65pt;padding:0in 5.4pt 0in 5.4pt'><a href="https://engineering.purdue.edu/FTC/handouts/ProblemSheets/mudboard_conditional_reliability_092614.pdf">pdf</a></td>
+   </tr>
+ <tr style='mso-yfti-irow:0;mso-yfti-firstrow:yes;mso-yfti-lastrow:yes'>
+   <td style='padding:.75pt .75pt .75pt .75pt'>Mudboard: Non series-parallel system analysis</td>
+   <td style='width:53.3pt;padding:.75pt .75pt .75pt .75pt'>October 29</td>
+   <td valign=top style='width:66.65pt;padding:0in 5.4pt 0in 5.4pt'><a href="https://engineering.purdue.edu/FTC/handouts/ProblemSheets/non_series_parallel_analysis.pdf">pdf</a></td>
+   </tr>
+ <tr style='mso-yfti-irow:0;mso-yfti-firstrow:yes;mso-yfti-lastrow:yes'>
+   <td style='padding:.75pt .75pt .75pt .75pt'>Mudboard: Broadcast protocols</td>
+   <td style='width:53.3pt;padding:.75pt .75pt .75pt .75pt'>Dec 10</td>
+   <td valign=top style='width:66.65pt;padding:0in 5.4pt 0in 5.4pt'><a href="https://engineering.purdue.edu/FTC/handouts/ProblemSheets/broadcast_protocol.pdf">pdf</a></td>
+ </tr>
+ <tr style='mso-yfti-irow:0;mso-yfti-firstrow:yes;mso-yfti-lastrow:yes'>
+   <td style='padding:.75pt .75pt .75pt .75pt'>Security bug detection</td>
+   <td style='width:53.3pt;padding:.75pt .75pt .75pt .75pt'>Dec 9</td>
+   <td valign=top style='width:66.65pt;padding:0in 5.4pt 0in 5.4pt'><a href="https://engineering.purdue.edu/FTC/handouts/ProblemSheets/security_bug_detection.pdf">pdf</a></td>
+ </tr>
+</table>
+
+<p><o:p>&nbsp;</o:p></p>
+
+<p><a name=Projects></a><b>Course Projects:</b> </p>
+
+<table class=MsoNormalTable border=1 cellpadding=0 style='mso-cellspacing:1.5pt;
+ border:outset 2.25pt;mso-yfti-tbllook:1184;mso-padding-alt:0in 5.4pt 0in 5.4pt'>
+ <tr style='mso-yfti-irow:0;mso-yfti-firstrow:yes'>
+  <td width=271 style='width:163.85pt;padding:.75pt .75pt .75pt .75pt'>
+    <p class=MsoNormal><b>Title</b></p>  </td>
+  <td width=160 valign=top style='width:92.25pt;padding:.75pt .75pt .75pt .75pt'>
+    <p class=MsoNormal><b>Document<o:p></o:p></b></p>  </td>
+ </tr>
+ <tr style='mso-yfti-irow:1'>
+   <td style='width:163.85pt;padding:.75pt .75pt .75pt .75pt'>Grading template for final presentation and report</td>
+   <td valign=top style='width:92.25pt;padding:.75pt .75pt .75pt .75pt'><a href="handouts/Projects/final_grading_template.txt">txt</a></td>
+ </tr>
+ <tr style='mso-yfti-irow:1'>
+   <td style='width:163.85pt;padding:.75pt .75pt .75pt .75pt'>Sample project proposal</td>
+   <td valign=top style='width:92.25pt;padding:.75pt .75pt .75pt .75pt'><a href="handouts/Projects/sample_project_proposal_trustablewearables.pdf">pdf</a></td>
+ </tr>
+ <tr style='mso-yfti-irow:1'>
+   <td style='width:163.85pt;padding:.75pt .75pt .75pt .75pt'>Sample project reports</td>
+   <td valign=top style='width:92.25pt;padding:.75pt .75pt .75pt .75pt'><p><a href="handouts/Projects/Reports/sample_reports.html">html</a></p></td>
+ </tr>
+ <tr style='mso-yfti-irow:1'>
+   <td width=271 style='width:163.85pt;padding:.75pt .75pt .75pt .75pt'>
+     <p class=MsoNormal><span style='mso-bidi-font-weight:bold'>Project list<o:p></o:p></span></p>  </td>
+   <td valign=top style='width:92.25pt;padding:.75pt .75pt .75pt .75pt'><span style='mso-bidi-font-weight:bold'><a
+  href="handouts/Projects/projectlist.pdf">pdf</a>
+       <o:p></o:p>
+     </span> (Password needed)  </td>
+ </tr>
+ <tr style='mso-yfti-irow:2'>
+   <td style='width:163.85pt;padding:.75pt .75pt .75pt .75pt'>Project proposal structure</td>
+   <td style='width:92.25pt;padding:.75pt .75pt .75pt .75pt'><a href="handouts/Projects/proposalformat.html">html</a></td>
+ </tr>
+ <tr style='mso-yfti-irow:2'>
+  <td width=271 style='width:163.85pt;padding:.75pt .75pt .75pt .75pt'>
+    <p class=MsoNormal><span style='mso-bidi-font-weight:bold'>Grading template
+      for final project presentation and report<o:p></o:p></span></p>  </td>
+  <td style='width:92.25pt;padding:.75pt .75pt .75pt .75pt'>
+    <p class=MsoNormal><span style='mso-bidi-font-weight:bold'><a
+  href="https://engineering.purdue.edu/FTC/handouts/Projects/grading_template.txt">txt</a><o:p></o:p></span></p>  </td>
+ </tr>
+</table>
+
+<p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto'><b
+style='mso-bidi-font-weight:normal'>Project Presentations<o:p></o:p></b></p>
+
+<table class=MsoNormalTable border=1 cellpadding=0 style='mso-cellspacing:1.5pt;
+ border:outset 2.25pt;mso-yfti-tbllook:1184;mso-padding-alt:0in 5.4pt 0in 5.4pt'>
+ <tr style='mso-yfti-irow:0;mso-yfti-firstrow:yes;mso-yfti-lastrow:yes'>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><b>Title</b></p>
+  </td>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><b>Group Members</b></p>
+  </td>
+  <td valign=top style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><b>Document<o:p></o:p></b></p>
+  </td>
+ </tr>
+</table>
+
+<p class=MsoNormal><o:p>&nbsp;</o:p></p>
+
+<p class=MsoNormal><b style='mso-bidi-font-weight:normal'>References<o:p></o:p></b></p>
+
+<table class=MsoNormalTable border=1 cellpadding=0 style='mso-cellspacing:1.5pt;
+ border:outset 2.25pt;mso-yfti-tbllook:1184;mso-padding-alt:0in 5.4pt 0in 5.4pt'>
+ <tr style='mso-yfti-irow:0;mso-yfti-firstrow:yes'>
+  <td valign=top style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><b style='mso-bidi-font-weight:normal'>Date<o:p></o:p></b></p>  </td>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><b style='mso-bidi-font-weight:normal'>Topic<o:p></o:p></b></p>  </td>
+  <td valign=top style='padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal><b style='mso-bidi-font-weight:normal'>File<o:p></o:p></b></p>  </td>
+ </tr>
+</table>
+
+<p class=MsoNormal><o:p>&nbsp;</o:p></p>
+
+<p align=center style='text-align:center'><a
+href="handouts/Administrative/courseinfo.pdf"><span style='color:black;
+mso-no-proof:yes;text-decoration:none;text-underline:none'><img border=0
+width=721 height=14 id="_x0000_i1028" src="line.gif"></span></a></p>
+
+<p align=center style='text-align:center'><b>[ <a
+href="https://engineering.purdue.edu/ee695b/public-web/"><span
+style='color:black;text-decoration:none;text-underline:none'>ECE 695B Home</span></a></b>
+| <b style='mso-bidi-font-weight:normal'><a
+href="https://engineering.purdue.edu/ee695b/public-web/description.html"><span
+style='color:black;text-decoration:none;text-underline:none'><!-- <A HREF="description.html">Description</A> | -->Description</span></a></b>
+| <b style='mso-bidi-font-weight:normal'><a
+href="https://engineering.purdue.edu/ee695b/public-web/handouts.html"><span
+style='color:black;text-decoration:none;text-underline:none'>Handouts</span></a></b>
+| <b style='mso-bidi-font-weight:normal'><a
+href="https://engineering.purdue.edu/ee695b/public-web/announcements.html"><span
+style='color:black;text-decoration:none;text-underline:none'>Announcements</span></a></b>
+<b>]</b></p>
+
+<div align=center>
+
+<table class=MsoNormalTable border=0 cellpadding=0 style='mso-cellspacing:1.5pt;
+ mso-yfti-tbllook:1184;mso-padding-alt:0in 5.4pt 0in 5.4pt'>
+ <tr style='mso-yfti-irow:0;mso-yfti-firstrow:yes'>
+  <td width=106 style='width:79.65pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal align=center style='text-align:center'><a
+  href="http://www.purdue.edu/"><span style='font-size:10.0pt;color:windowtext;
+  mso-no-proof:yes;text-decoration:none;text-underline:none'><img border=0
+  width=53 height=50 id="_x0000_i1027" src="grif.gif"></span></a><span
+  style='font-size:10.0pt;color:windowtext'><o:p></o:p></span></p>
+  </td>
+  <td width=89 style='width:66.75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal align=center style='text-align:center'><a
+  href="http://dynamo.ecn.purdue.edu/"><span style='font-size:10.0pt;
+  color:windowtext;mso-no-proof:yes;text-decoration:none;text-underline:none'><img
+  border=0 width=54 height=50 id="_x0000_i1026" src="ece_logo.gif"></span></a><span
+  style='font-size:10.0pt;color:windowtext'><o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:1;mso-yfti-lastrow:yes'>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal align=center style='text-align:center'><a
+  href="http://www.purdue.edu/">[Purdue Home]</a></p>
+  </td>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal align=center style='text-align:center'><a
+  href="http://ECE.www.ecn.purdue.edu/ECE/">[ECE Home]</a></p>
+  </td>
+ </tr>
+</table>
+
+</div>
+
+<p align=center style='margin-bottom:0in;margin-bottom:.0001pt;text-align:center'><a
+href="handouts/Administrative/courseinfo.pdf"><span style='color:black;
+mso-no-proof:yes;text-decoration:none;text-underline:none'><img border=0
+width=721 height=14 id="_x0000_i1025" src="line.gif"></span></a></p>
+
+<p align=center style='margin-bottom:0in;margin-bottom:.0001pt;text-align:center'>Maintained
+by Saurabh Bagchi <br>
+<i><a href="mailto:sbagchi@purdue.edu">sbagchi@purdue.edu</a></i><span
+style='mso-bidi-font-style:italic'><o:p></o:p></span></p>
+
+<p align=center style='margin-top:0in;text-align:center'><span
+style='mso-bidi-font-style:italic'>Last updated: </span><!--[if supportFields]><span
+style='mso-bidi-font-style:italic'><span style='mso-element:field-begin'></span><span
+style='mso-spacerun:yes'> </span>DATE \@ &quot;MMMM d, yyyy&quot; <span
+style='mso-element:field-separator'></span></span><![endif]--><span
+style='mso-bidi-font-style:italic'><span style='mso-no-proof:yes'>
+  <!-- #BeginDate format:Am1 -->November 25, 2019<!-- #EndDate -->
+</span></span><!--[if supportFields]><span
+style='mso-bidi-font-style:italic'><span style='mso-element:field-end'></span></span><![endif]--><br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br style='mso-special-character:line-break'>
+<![if !supportLineBreakNewLine]><br style='mso-special-character:line-break'>
+<![endif]></p>
+
+</div>
+
+</body>
+
+</html>
