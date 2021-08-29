@@ -88,7 +88,7 @@ analytics:
 author:
   name             : "Shuhao Liu"
   avatar           : "/assets/images/avatar.jpeg"
-  bio              : "Ph.D."
+  bio              : "Ph.D., Univ. of Toronto"
   location         : "Toronto"
   email            : "shuhao@ece.toronto.edu"
   uri              :
@@ -182,7 +182,7 @@ sass:
 
 
 # Outputting
-permalink: /:categories/:title/
+permalink: /blog/:categories/:year/:title/
 # paginate: 5 # amount of posts to show
 # paginate_path: /page:num/
 timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
@@ -197,6 +197,7 @@ plugins:
   - jemoji
   - jekyll-remote-theme
   - jekyll-include-cache
+  - jekyll-spaceship
 
 # mimic GitHub Pages with --safe
 whitelist:
@@ -257,6 +258,10 @@ defaults:
       comments: # true
       share: true
       related: true
+      toc: true
+      toc_label: " "
+      excerpt_separator: <!--more-->
+
   # _pages
   - scope:
       path: ""

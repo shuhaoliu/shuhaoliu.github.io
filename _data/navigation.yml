@@ -6,7 +6,7 @@ main:
   - title: "Awesome"
     url: /links/
   - title: "Blog"
-    url: /blogs/
+    url: /blog/
 homepage:
   - title: HOME
     children:
