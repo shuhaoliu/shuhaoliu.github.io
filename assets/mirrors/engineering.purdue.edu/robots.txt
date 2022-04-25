@@ -1,0 +1,17 @@
+User-agent: *
+Disallow: /Intranet/Groups/
+Disallow: /CE/Academics/IndustryOpps
+Disallow: /Engr/Research/SURF/Students/
+Disallow: /Engr/InfoFor/redirects/
+Disallow: /Dev*
+Disallow: /ProEdDev/
+Disallow: /~asce/pages/events/
+Disallow: /AAE/Academics/Courses/aae490t/AAE_490T_Spring_2003/
+Disallow: /Impulse/uploads
+Disallow: /BME/Academics/Undergraduate/2016SeniorDesign
+Disallow: /BME/Academics/Undergraduate/SeniorDesign/*Projects
+Disallow: /Wraps/
+Allow: /Wraps/*.css
+Allow: /Wraps/*.js
+Allow: /Wraps/*.png
+Crawl-delay: 5

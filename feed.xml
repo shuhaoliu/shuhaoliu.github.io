@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.2">Jekyll</generator><link href="https://shuhaoliu.github.io/pages/shuhaoliu/feed.xml" rel="self" type="application/atom+xml" /><link href="https://shuhaoliu.github.io/pages/shuhaoliu/" rel="alternate" type="text/html" /><updated>2022-04-25T11:14:32+00:00</updated><id>https://shuhaoliu.github.io/pages/shuhaoliu/feed.xml</id><title type="html">Homepage</title><subtitle>Personal Website of Shuhao Liu</subtitle><author><name>Shuhao Liu</name><email>shuhao@sics.ac.cn</email></author><entry><title type="html">Reading Notes: Atomic Habits</title><link href="https://shuhaoliu.github.io/pages/shuhaoliu/blog/reading/2021/reading-notes-atomic-habits/" rel="alternate" type="text/html" title="Reading Notes: Atomic Habits" /><published>2021-08-29T00:00:00+00:00</published><updated>2021-08-29T00:00:00+00:00</updated><id>https://shuhaoliu.github.io/pages/shuhaoliu/blog/reading/2021/reading-notes-atomic-habits</id><content type="html" xml:base="https://shuhaoliu.github.io/pages/shuhaoliu/blog/reading/2021/reading-notes-atomic-habits/">&lt;p&gt;Reading notes of &lt;em&gt;Atomic Habits&lt;/em&gt;: An Easy &amp;amp; Proven Way to Build Good Habits &amp;amp; Break from Bad Ones, by James Clear.
+&lt;!--more--&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://jamesclear.com/atomic-habits&quot;&gt;&lt;img src=&quot;https://jamesclear.com/wp-content/uploads/2021/08/atomic-habits-dots-1.png&quot; alt=&quot;Atomic Habits&quot; width=&quot;200px&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;This book introduces a framework for habit forming.
+Many approaches/tricks are highly practical and easy to follow.&lt;/p&gt;
+
+&lt;h2 id=&quot;core-ideas&quot;&gt;Core Ideas&lt;/h2&gt;
+
+&lt;h3 id=&quot;a-four-step-model-of-human-behavior&quot;&gt;A Four-Step Model of Human Behavior&lt;/h3&gt;
+
+&lt;p&gt;The process of building a habit can be divided into the following four steps: &lt;strong&gt;cue&lt;/strong&gt;, &lt;strong&gt;craving&lt;/strong&gt;, &lt;strong&gt;response&lt;/strong&gt; and &lt;strong&gt;reward&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;The cue triggers a craving, which motivates a response, which provides a reward, which satisfies the cravings and, ultimately, becomes associated with the cue.
+If a behavior is insufficient in any of the four stages, it will &lt;em&gt;not&lt;/em&gt; become a habit.&lt;/p&gt;
+
+&lt;p&gt;Therefore, to form a new good habit or to break an old bad habit, we must work on all four steps:&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt; &lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;Cue&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;Craving&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;Response&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;Reward&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Make a good habit&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;**obvious**&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;**attractive**&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;**easy**&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;**satisfying**&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Make a bad habit&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;**invisible**&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;**unattractive**&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;**difficult**&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;**unsatisfying**&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h3 id=&quot;make-it-obvious&quot;&gt;Make It Obvious&lt;/h3&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Use &lt;strong&gt;implementation intentions&lt;/strong&gt;: “I will [do something] at [some time] in [somewhere]”.
+    &lt;ul class=&quot;notice--primary&quot;&gt;
+      &lt;li&gt;Commit to daily writing hours at a specific time and location.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Use &lt;strong&gt;habit stacking&lt;/strong&gt;: “After a current habit, I will do some new habit”.
+    &lt;ul class=&quot;notice--primary&quot;&gt;
+      &lt;li&gt;After my morning routine, I’ll spend at least an hour writing.&lt;/li&gt;
+      &lt;li&gt;After my noon nap, I’ll do 10 pushups.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Design your environment. Make the cues of good habits obvious and visible.
+    &lt;ul class=&quot;notice--primary&quot;&gt;
+      &lt;li&gt;Charge my phone at a power outlet far away from my work desk.&lt;/li&gt;
+      &lt;li&gt;Tidy-up my working environment so that I can focus solely on the task at hand.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;make-it-attractive&quot;&gt;Make It Attractive&lt;/h3&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Use &lt;strong&gt;temptation bundling&lt;/strong&gt;. Pair an action you want to do with an action you need to do.
+    &lt;ul class=&quot;notice--primary&quot;&gt;
+      &lt;li&gt;I’ll watch my favorite TV episodes when walking on the treadmill.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Join/Create a culture where the desired behavior is the norm.
+    &lt;ul class=&quot;notice--primary&quot;&gt;
+      &lt;li&gt;(The close:) Make a living schedule together with my partner and stick to it.&lt;/li&gt;
+      &lt;li&gt;(The many:) Create a team culture that values efficient collaboration and communications during working hours.&lt;/li&gt;
+      &lt;li&gt;(The powerful).&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Create a &lt;strong&gt;motivation ritual&lt;/strong&gt;. Do something you enjoy immediately before a difficult habit.
+    &lt;ul class=&quot;notice--primary&quot;&gt;
+      &lt;li&gt;Make a cup of tea/coffee before starting my work for the day.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;make-it-easy&quot;&gt;Make It Easy&lt;/h3&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Reduce friction. Decrease the number of steps between you and your good habits.
+    &lt;ul class=&quot;notice--primary&quot;&gt;
+      &lt;li&gt;Create (keyboard) shortcuts on my laptop that directly link to the current project.&lt;/li&gt;
+      &lt;li&gt;Remove shortcut links to websites that may negatively impact work efficiency.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Prime your environment to make future actions easier.
+    &lt;ul class=&quot;notice--primary&quot;&gt;
+      &lt;li&gt;Put exercise clothing at the entrance of the apartment door. Put them on right after getting back from work.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Harness the &lt;em&gt;decisive moment&lt;/em&gt;. Optimize the small choices that decides whether your day is productive or not.
+    &lt;ul class=&quot;notice--primary&quot;&gt;
+      &lt;li&gt;When having the temptation to do something unproductive, think twice about workday productivity.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Use the &lt;strong&gt;Two-Minute Rule&lt;/strong&gt;. Downscale your habits until they can be done in two minutes or less.
+    &lt;ul class=&quot;notice--primary&quot;&gt;
+      &lt;li&gt;Commit to exercise at least 2 minutes per day.&lt;/li&gt;
+      &lt;li&gt;Commit to do 30 pushups a day.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Automate your habits. Invest in technology and onetime purchases that lock in future behavior.
+    &lt;ul class=&quot;notice--primary&quot;&gt;
+      &lt;li&gt;Design a personal productivity system and using an app to track its progress. Review and adjust the system regularly.&lt;/li&gt;
+      &lt;li&gt;Use browser plugins to block distractive websites.&lt;/li&gt;
+      &lt;li&gt;Do not hesitate to buy something that can boost productivity.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;make-it-satisfying&quot;&gt;Make It Satisfying&lt;/h3&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Use reinforcement. Give yourself an &lt;em&gt;immediate reward&lt;/em&gt; (rather than delayed reward) when you complete your habit.
+    &lt;ul class=&quot;notice--primary&quot;&gt;
+      &lt;li&gt;After working for a productive day, watch some enjoyable videos/TV episodes/movies.&lt;/li&gt;
+      &lt;li&gt;Use an App to-do list. Check the item on the to-do list right after a positive behavior.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Never&lt;/strong&gt; miss a habit twice in a row.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&quot;notes--excerpts&quot;&gt;Notes &amp;amp; Excerpts&lt;/h2&gt;
+
+&lt;h3 id=&quot;why-tiny-changes-make-a-big-difference&quot;&gt;Why Tiny Changes Make a Big Difference&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Your outcomes are a lagging measure of your habits. You get what you repeat.
+    &lt;blockquote&gt;
+      &lt;p&gt;That’s how knowledge works. It builds up like compound interest.” — Warren Buffett.&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+  &lt;li&gt;In order to make a meaningful difference, habits need to persist long enough to break through this plateau—the &lt;em&gt;Plateau of Latent Potential&lt;/em&gt;.&lt;/li&gt;
+  &lt;li&gt;Forget about setting goals. Focus on the system instead.&lt;/li&gt;
+  &lt;li&gt;Three level of changes: outcome, process, and identity. The most effective way to change a behavior is to focus on what you wish to become. Becoming the best version of yourself requires you to continuously edit your beliefs, and to upgrade and expand your identity.&lt;/li&gt;
+  &lt;li&gt;The ultimate purpose of habits is to solve the problems of life with as little energy and effort as possible.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;cue&quot;&gt;Cue&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Once our habits become automatic, we stop paying attention to what we are doing.&lt;/li&gt;
+  &lt;li&gt;the process of behavior change always starts with awareness. You must be aware of the habits before you can change them.&lt;/li&gt;
+  &lt;li&gt;Every habit is initiated by a cue. We are more likely to notice cues that stand out.&lt;/li&gt;
+  &lt;li&gt;Gradually, your habits become associated with the entire &lt;em&gt;context&lt;/em&gt; surrounding the behavior. The context becomes the cue.&lt;/li&gt;
+  &lt;li&gt;Spend less time in tempting situations. It is easier to avoid tempations than resist it.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;craving&quot;&gt;Craving&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;It is the &lt;em&gt;anticipation&lt;/em&gt; of a reward—not the fulfillment of it—that gets us to take action. The greater the anticipation, the greater the dopamine spike.&lt;/li&gt;
+  &lt;li&gt;Every behavior has a surface level craving and a deeper underlying motive.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;response&quot;&gt;Response&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Walk slowly, but never backward.&lt;/li&gt;
+  &lt;li&gt;Focus on taking action, not being in motion.&lt;/li&gt;
+  &lt;li&gt;The amount of time &amp;lt; the number of times you perform a habit.&lt;/li&gt;
+  &lt;li&gt;The &lt;em&gt;Law of Least Effort&lt;/em&gt;: we will natually gravitate toward the option that requires the least amount of work. Our real motivation is to be &lt;em&gt;lazy&lt;/em&gt; and to do what is &lt;em&gt;convenient&lt;/em&gt;.&lt;/li&gt;
+  &lt;li&gt;The idea is to make a habit as easy as possible in the moment to do things that &lt;em&gt;payoff in the long run&lt;/em&gt;.&lt;/li&gt;
+  &lt;li&gt;Standardize before you optimize. You cannot improve a habit that does not exist.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;reward&quot;&gt;Reward&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;The Cardinal Rule of Behavior Change: &lt;em&gt;What is immediately rewarded is repeated. What is immediately punished is avoided.&lt;/em&gt;&lt;/li&gt;
+  &lt;li&gt;One of the most satisfying feelings is the feeling of &lt;em&gt;making progress&lt;/em&gt;.&lt;/li&gt;
+  &lt;li&gt;Knowing that someone else is watching you can be a powerful motivator.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;advanced-tactics&quot;&gt;Advanced Tactics&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Play a game that favors your strengths. Create a game if it does not exist.&lt;/li&gt;
+  &lt;li&gt;Genes do not eliminate the need for hard work. They clarify it. They tell us what to work hard on.&lt;/li&gt;
+  &lt;li&gt;The &lt;em&gt;Goldilocks Rule&lt;/em&gt; states that humans experience peak motivation when working on tasks that are &lt;em&gt;right on the edge&lt;/em&gt; of their current abilities.&lt;/li&gt;
+  &lt;li&gt;It is the ability to keep going when work isn’t exciting that makes the difference.&lt;/li&gt;
+  &lt;li&gt;Professionals stick to the schedule; amateurs let life get in the way.&lt;/li&gt;
+  &lt;li&gt;Habits + Deliberate Practice = Mastery&lt;/li&gt;
+  &lt;li&gt;Reflection and review is a process that allows you to remain conscious of your performance over time.&lt;/li&gt;
+  &lt;li&gt;Shape and update your personal identity regularly.&lt;/li&gt;
+&lt;/ul&gt;</content><author><name>Shuhao Liu</name><email>shuhao@sics.ac.cn</email></author><category term="reading" /><category term="reading notes" /><category term="habits" /><summary type="html">Reading notes of Atomic Habits: An Easy &amp;amp; Proven Way to Build Good Habits &amp;amp; Break from Bad Ones, by James Clear.</summary></entry></feed>
