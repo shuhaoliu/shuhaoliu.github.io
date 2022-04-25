@@ -14,7 +14,9 @@ jobs:
       # Use GitHub Actions' cache to cache dependencies on servers
       - uses: actions/cache@v2
         with:
-          path: vendor/bundle
+          path: |
+            vendor/bundle
+            **/Gemfile.lock
           key: ${{ runner.os }}-gems-${{ hashFiles('**/Gemfile.lock') }}
           restore-keys: |
             ${{ runner.os }}-gems-
