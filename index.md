@@ -18,7 +18,7 @@ excerpt: "
     <br>
     [Shenzhen Institute of Computing Sciences](https://en.sics.ac.cn/)
     <br>
-    Email: $ shuhao @ sics.ac.cn $
+    Email: shuhao _at_ sics _dot_ ac _dot_ cn
     <br>
     <br>
     [Google Scholar](https://scholar.google.com/citations?user=vzwmJU8AAAAJ&hl=en&oi=ao){: .btn .btn--light-outline .btn--small}
@@ -28,7 +28,7 @@ excerpt: "
 
 # <i class="fa fa-newspaper fa-fw"></i>&nbsp;News
 
-|: $ Time $ :|: $ Event $ :|
+| Time | Event |
 |-------|-------|
 |2021.12| I joined SICS as a senior computer scientist. A fresh restart of my career!|
 |2021.06| A co-authored paper got accepted to IEEE TPDS journal.|
