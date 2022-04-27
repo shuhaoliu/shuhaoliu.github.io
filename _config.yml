@@ -55,9 +55,14 @@ reCaptcha:
 atom_feed:
   path                   : # blank (default) uses feed.xml
 search                   : true # true, false (default)
+search_full_content      : true # true, false (default)
+search_provider          : "google" # lunr (default), algolia, google
+google:
+  search_engine_id       : "a3e74894cfb41baac" # YOUR_SEARCH_ENGINE_ID
+  instant_search         : true # false (default), true
 
 # SEO Related
-google_site_verification :
+google_site_verification : "NFcFZMkNcl7b8A71qLGY5GIpgagHay5R-pyHPXSwDTk"
 bing_site_verification   :
 yandex_site_verification :
 naver_site_verification  :
@@ -79,9 +84,9 @@ social:
 
 # Analytics
 analytics:
-  provider               : "google" # false (default), "google", "google-universal", "custom"
+  provider               : "google-gtag" # false (default), "google", "google-universal", "custom"
   google:
-    tracking_id          : "UA-111942593-1"
+    tracking_id          : "G-2T2CF7K6N8" # "UA-111942593-1"
 
 
 # Site Author
