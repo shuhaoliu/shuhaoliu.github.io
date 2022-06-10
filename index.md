@@ -22,6 +22,7 @@ excerpt: "
     <br>
     <br>
     [Google Scholar](https://scholar.google.com/citations?user=vzwmJU8AAAAJ&hl=en&oi=ao){: .btn .btn--light-outline .btn--small}
+    [DBLP](https://dblp.org/pid/129/1025-1.html){: .btn .btn--light-outline .btn--small}
     [GitHub](https://github.com/shuhaoliu){: .btn .btn--light-outline .btn--small}
   "
 ---
@@ -30,7 +31,7 @@ excerpt: "
 
 | Time | Event |
 |-------|-------|
-|2021.12| I joined SICS as a senior computer scientist. A fresh restart of my career!|
+|2021.12| I joined SICS as a senior research scientist.|
 |2021.06| A co-authored paper got accepted to IEEE TPDS journal.|
 |2018.11| Successfully defended my Ph.D. thesis. (Yay!!!)|
 |2018.07-10| A 3-month internship at Google, working on cluster networking.|
@@ -42,7 +43,7 @@ excerpt: "
 # <i class="fa fa-microchip fa-fw"></i>&nbsp;About Me
 ------------------
 
-I am currently a senior computer scientist at
+I am currently a senior research scientist at
 [Shenzhen Institute of Computing Sciences (SICS)](https://en.sics.ac.cn/),
 based in Shenzhen, China.
 My research interests cover a broad area related to

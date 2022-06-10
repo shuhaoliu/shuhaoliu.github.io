@@ -12,7 +12,7 @@ Tsinghua University, China, in 2012.
 He received his Ph.D. degree in 2019 from University of Toronto, Canada,
 where he was a member of [iQua research group](http://iqua.ece.toronto.edu/index.html)
 under supervision of Prof. [Baochun Li](http://iqua.ece.toronto.edu/bli/index.html).
-He is currently a senior computer scientist at
+He is currently a senior research scientist at
 [Shenzhen Institute of Computing Sciences (SICS)](https://en.sics.ac.cn/).
 His research interests include system security and privacy,
 systems for big data analytics, and computer networks.
