@@ -16,7 +16,7 @@ This page is a curated list of awesome links/presentations that I would like to 
 * [How to read a paper](/assets/sharing/HowtoReadPaper.pdf) by [Prof. S. Keshav](https://svr-sk818-web.cl.cam.ac.uk/keshav/wiki/index.php/Main_Page).
 * [Reading for graduate students](http://matt.might.net/articles/books-papers-materials-for-graduate-students/) by Matt Might.
 * [Doing a systems PhD](/assets/sharing/systems_phd.pps) by Steve Hand.
-* [List of journals and conferences](/assets/sharing/ccf-2019.pdf) recommended by China Computer Federation (CCF) in 2019.
+* [List of journals and conferences](/assets/sharing/ccf-2022.pdf) recommended by China Computer Federation (CCF) in 2022 (find 2019 revision [here](/assets/sharing/ccf-2019.pdf)).
 * [Influential Security Papers](https://www.sec.cs.tu-bs.de/~konrieck/topnotch/index.html).
 
 ## Other ''Awesome'' Sharing
