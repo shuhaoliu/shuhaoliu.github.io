@@ -5,6 +5,15 @@ last_modified_at: 2021-07-18T22:28:00-05:00
 ---
 ## Conference Papers
 
+### 2023
+
+1. **[PVLDB]**
+Xiaoke Zhu, Yang Liu, **Shuhao Liu***, [Wenfei Fan][wenfei].
+"MiniGraph: Querying Big Graphs with a Single Machine,"
+in the *Proceedings of VLDB Endowment (PVLDB) 2023*, Vancouver, BC, August 28-September 1, 2023.
+<small>[[source code](https://github.com/SICS-Fundamental-Research-Center/MiniGraph)]</small>
+
+
 ### Before 2022
 
 1. **[ATC]**
@@ -54,6 +63,10 @@ Wenxin Li, [Di Niu][diniu], Yinan Liu, **Shuhao Liu**, [Baochun Li][baochun]. "J
 1. **[INFOCOM]**
 **Shuhao Liu**, [Baochun Li][baochun]. "Stemflow: Inter-Datacenter Overlay as a Service," in the *Proceedings of IEEE INFOCOM 2017* (Demo Session), Atlanta, Georgia, May 1-4, 2017.
 
+
+> *: Corresponding author.
+
+
 [henry]: https://henryhxu.github.io/index.html
 [weibai]: https://baiwei0427.github.io/
 [kaichen]: http://www.cse.ust.hk/~kaichen/#research
@@ -62,3 +75,4 @@ Wenxin Li, [Di Niu][diniu], Yinan Liu, **Shuhao Liu**, [Baochun Li][baochun]. "J
 [haowang]: http://www.haow.ca/
 [diniu]: https://sites.ualberta.ca/~dniu/Homepage/Home.html
 [li]: https://lichenut.github.io/
+[wenfei]: https://homepages.inf.ed.ac.uk/wenfei/
