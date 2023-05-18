@@ -1,7 +1,7 @@
 ---
 title: "Shuhao's Awesome Lists"
 layout: splash
-last_modified_at: 2021-08-02T08:00:00-05:00
+last_modified_at: 2023-05-16T08:00:00-05:00
 ---
 
 ---
@@ -23,6 +23,7 @@ This page is a curated list of awesome links/presentations that I would like to 
 
 * [My personal Keynote theme](/assets/sharing/shuhao-theme.kth), inspired by Google internal presentation slides.
 * [*WorkLife* with Adam Grant](https://www.ted.com/podcasts/worklife) podcast, "*The Porsche of podcasts.*"
+* [Bedtime News archive](https://archive.bedtime.news/), and its [GitHub repo](https://github.com/bedtimenews/bedtimenews-archive-contents/).
 
 ## Courses/Materials
 
