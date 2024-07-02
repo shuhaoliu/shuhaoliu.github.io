@@ -21,10 +21,12 @@ doi:10.14778/3648160.3648162
 Xiaoke Zhu, Yang Liu, **Shuhao Liu**\*, [Wenfei Fan][wenfei]. "[MiniGraph: Querying Big Graphs with a Single Machine](https://vldb.org/pvldb/volumes/16/paper/MiniGraph%3A%20Querying%20Big%20Graphs%20with%20a%20Single%20Machine)," in the *Proceedings of the VLDB Endowment (PVLDB)*, 16(9): 2172 - 2185, 2023.
 doi:10.14778/3598581.3598590.
 <small>[[paper](/assets/papers/xiaoke-pvldb23-minigraph.pdf)]</small>
+<small>[[source code](https://github.com/SICS-Fundamental-Research-Center/MiniGraph)]</small>
 <small>[[full-version](/assets/papers/minigraph-full.pdf)]</small>
 
 
 <small><span style="color:gray">*: Corresponding author.</span></small>
+
 
 ### Before 2022
 
@@ -74,6 +76,10 @@ Wenxin Li, [Di Niu][diniu], Yinan Liu, **Shuhao Liu**, [Baochun Li][baochun]. "J
 
 1. **[INFOCOM]**
 **Shuhao Liu**, [Baochun Li][baochun]. "Stemflow: Inter-Datacenter Overlay as a Service," in the *Proceedings of IEEE INFOCOM 2017* (Demo Session), Atlanta, Georgia, May 1-4, 2017.
+
+
+> *: Corresponding author.
+
 
 [henry]: https://henryhxu.github.io/index.html
 [weibai]: https://baiwei0427.github.io/
