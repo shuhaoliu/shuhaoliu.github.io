@@ -25,7 +25,7 @@ doi:10.14778/3598581.3598590.
 <small>[[full-version](/assets/papers/minigraph-full.pdf)]</small>
 
 
-<small><span style="color:gray">*: Corresponding author.</span></small>
+> *: Corresponding author.
 
 
 ### Before 2022
@@ -78,7 +78,6 @@ Wenxin Li, [Di Niu][diniu], Yinan Liu, **Shuhao Liu**, [Baochun Li][baochun]. "J
 **Shuhao Liu**, [Baochun Li][baochun]. "Stemflow: Inter-Datacenter Overlay as a Service," in the *Proceedings of IEEE INFOCOM 2017* (Demo Session), Atlanta, Georgia, May 1-4, 2017.
 
 
-> *: Corresponding author.
 
 
 [henry]: https://henryhxu.github.io/index.html
