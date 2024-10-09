@@ -1,17 +1,31 @@
 ---
 title: "Publications"
 layout: splash
-last_modified_at: 2021-07-18T22:28:00-05:00
+last_modified_at: 2024-07-01T20:00:00-05:00
 ---
 ## Conference Papers
 
-### 2023
+1. **[PVLDB]**
+[Wenfei Fan][wenfei], Muyang Liu, **Shuhao Liu**, Chao Tian. "[Capturing More Associations by Referencing External Graphs](https://www.vldb.org/pvldb/volumes/17/paper/Capturing%20More%20Associations%20by%20Referencing%20External%20Graphs)," in the *Proceedings of the VLDB Endowment (PVLDB)*, 17(6): 1173 - 1186, 2024.
+doi:10.14778/3648160.3648162
+<small>[[paper](/assets/papers/muyang-pvldb24-el.pdf)]</small>
+
+1. **[INFOCOM]**
+**Shuhao Liu**, [Li Chen][li], Yuanzhong Fu. "Periscoping: Private Key Distribution for Large-Scale Mixnets
+," in the *Proceedings of IEEE INFOCOM 2024*, Vancouver, BC, Canada, May 20-23, 2024.
+<small>[[paper](/assets/papers/shuhao-infocom24-periscoping.pdf)]</small>
+<small>[[slides](/assets/papers/shuhao-infocom24-periscoping-slides.pdf)]</small>
+
 
 1. **[PVLDB]**
-Xiaoke Zhu, Yang Liu, **Shuhao Liu***, [Wenfei Fan][wenfei].
-"MiniGraph: Querying Big Graphs with a Single Machine,"
-in the *Proceedings of VLDB Endowment (PVLDB) 2023*, Vancouver, BC, August 28-September 1, 2023.
+Xiaoke Zhu, Yang Liu, **Shuhao Liu**\*, [Wenfei Fan][wenfei]. "[MiniGraph: Querying Big Graphs with a Single Machine](https://vldb.org/pvldb/volumes/16/paper/MiniGraph%3A%20Querying%20Big%20Graphs%20with%20a%20Single%20Machine)," in the *Proceedings of the VLDB Endowment (PVLDB)*, 16(9): 2172 - 2185, 2023.
+doi:10.14778/3598581.3598590.
+<small>[[paper](/assets/papers/xiaoke-pvldb23-minigraph.pdf)]</small>
 <small>[[source code](https://github.com/SICS-Fundamental-Research-Center/MiniGraph)]</small>
+<small>[[full-version](/assets/papers/minigraph-full.pdf)]</small>
+
+
+> *: Corresponding author.
 
 
 ### Before 2022
@@ -64,7 +78,6 @@ Wenxin Li, [Di Niu][diniu], Yinan Liu, **Shuhao Liu**, [Baochun Li][baochun]. "J
 **Shuhao Liu**, [Baochun Li][baochun]. "Stemflow: Inter-Datacenter Overlay as a Service," in the *Proceedings of IEEE INFOCOM 2017* (Demo Session), Atlanta, Georgia, May 1-4, 2017.
 
 
-> *: Corresponding author.
 
 
 [henry]: https://henryhxu.github.io/index.html
