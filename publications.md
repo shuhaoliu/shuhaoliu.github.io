@@ -1,12 +1,26 @@
 ---
 title: "Publications"
 layout: splash
-last_modified_at: 2024-07-01T20:00:00-05:00
+last_modified_at: 2025-03-31T20:00:00-05:00
 ---
 ## Conference Papers
 
+1. **[SIGMOD]**
+Wenchao Bai, [Wenfei Fan][wenfei], **Shuhao Liu**, Kehan Pang, Xiaoke Zhu, Jiahui Jin. "Rule-Based Graph
+Cleaning with GPUs on a Single Machine," in the *Proceedings of ACM Management of Data*, 3, 3 (SIGMOD), Article 166 (June 2025).
+doi:10.1145/3725303
+
 1. **[PVLDB]**
-[Wenfei Fan][wenfei], Muyang Liu, **Shuhao Liu**, Chao Tian. "[Capturing More Associations by Referencing External Graphs](https://www.vldb.org/pvldb/volumes/17/paper/Capturing%20More%20Associations%20by%20Referencing%20External%20Graphs)," in the *Proceedings of the VLDB Endowment (PVLDB)*, 17(6): 1173 - 1186, 2024.
+Yang Liu, [Wenfei Fan][wenfei], **Shuhao Liu**\*, Xiaoke Zhu, Jianxin Li.
+"[A Single Machine System for Querying Big Graphs with PRAM](https://www.vldb.org/pvldb/volumes/18/paper/A%20Single%20Machine%20System%20for%20Querying%20Big%20Graphs%20with%20PRAM),"
+in the *Proceedings of the VLDB Endowment (PVLDB)*, 18(3): 756-769, 2024.
+doi:10.14778/3712221.3712240
+<small>[[source code](https://github.com/SICS-Fundamental-Research-Center/planar)]</small>
+
+
+1. **[PVLDB]**
+[Wenfei Fan][wenfei], Muyang Liu, **Shuhao Liu**, Chao Tian. "[Capturing More Associations by Referencing External Graphs](https://www.vldb.org/pvldb/volumes/17/paper/Capturing%20More%20Associations%20by%20Referencing%20External%20Graphs),"
+in the *Proceedings of the VLDB Endowment (PVLDB)*, 17(6): 1173 - 1186, 2024.
 doi:10.14778/3648160.3648162
 <small>[[paper](/assets/papers/muyang-pvldb24-el.pdf)]</small>
 
@@ -70,6 +84,22 @@ Wenxin Li, [Di Niu][diniu], Yinan Liu, **Shuhao Liu**, [Baochun Li][baochun]. "J
 1. **Shuhao Liu**, [Baochun Li][baochun]. "[On Scaling Software-Defined Networking in Wide-Area Networks](/assets/papers/shuhao-survey15.pdf)," in *Tsinghua Science and Technology*, vol. 20, no. 3, pp. 221-232, June 2015.
 
 ## Conference Posters & Demos
+
+1. **[PVLDB]**
+[Wenfei Fan](wenfei), Daji Li, Peiyu Liang, **Shuhao Liu**, Yaoshu Wang, Yiming Wang, Min Xie, and Runjie Zhang.
+"[Graph Association Analyses for Early Drug Discovery](https://www.vldb.org/pvldb/volumes/17/paper/Graph%20Association%20Analyses%20for%20Early%20Drug%20Discovery),"
+in the *Proceedings of the VLDB Endowment (PVLDB)*,
+17(12): 4293 - 4296, 2024.
+doi:10.14778/3685800.3685858
+<small><mark> (Won Best Demo Award!) </mark></small>
+
+1. **[PVLDB]**
+**Shuhao Liu**, Yang Liu, and [Wenfei Fan](wenfei).
+"[PrismX: A Single-Machine System for Querying Big Graphs](https://www.vldb.org/pvldb/volumes/17/paper/PrismX%3A%20A%20Single-Machine%20System%20for%20Querying%20Big%20Graphs),"
+in the *Proceedings of the VLDB Endowment (PVLDB)*,
+17(12): 4485 - 4488, 2024.
+doi:10.14778/3685800.3685906
+
 
 1. **[SoCC]**
 **Shuhao Liu**, [Li Chen][li], [Baochun Li][baochun]. "Siphon: a high-performance substrate for inter-datacenter transfers in wide-area data analytics," in the *Proceedings of Symposium on Cloud Computing (SoCC) 2017* (Poster Session), Santa Clara, California, September 24-27, 2017.
