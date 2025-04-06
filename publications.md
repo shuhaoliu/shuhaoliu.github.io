@@ -9,6 +9,7 @@ last_modified_at: 2025-03-31T20:00:00-05:00
 Wenchao Bai, [Wenfei Fan][wenfei], **Shuhao Liu**, Kehan Pang, Xiaoke Zhu, Jiahui Jin. "Rule-Based Graph
 Cleaning with GPUs on a Single Machine," in the *Proceedings of ACM Management of Data*, 3, 3 (SIGMOD), Article 166 (June 2025).
 doi:10.1145/3725303
+<small>[[full-version](/assets/papers/wenchao-sigmod25-miniclean-full.pdf)]</small>
 
 1. **[PVLDB]**
 Yang Liu, [Wenfei Fan][wenfei], **Shuhao Liu**\*, Xiaoke Zhu, Jianxin Li.
