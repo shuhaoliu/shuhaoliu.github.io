@@ -6,6 +6,17 @@ last_modified_at: 2025-03-31T20:00:00-05:00
 ## Conference Papers
 
 1. **[SIGMOD]**
+Yifan Wu, **Shuhao Liu**, [Wenfei Fan][wenfei], Yuanzhe Chen. "Selective Annotation: Certified Accuracy, Minimal Human Cost," in the *Proceedings of ACM Management of Data*, 4, 3 (SIGMOD), Article 232 (June 2026).
+doi:10.1145/3857218
+<small>[[full-version](/assets/papers/sigmod27-salt-full.pdf)]</small>
+
+1. **[SIGMOD]**
+**Shuhao Liu**, [Wenfei Fan][wenfei], Yijia Xu. "Shielding PII to Prevent Re-identification and Preserve Utility," in the *Proceedings of ACM Management of Data*, 4, 6 (SIGMOD), Article 390 (December 2026).
+doi:10.1145/3802109
+<small>[[full-version](/assets/papers/shuhao-sigmod26-shield-full.pdf)]</small>
+
+
+1. **[SIGMOD]**
 Wenchao Bai, [Wenfei Fan][wenfei], **Shuhao Liu**, Kehan Pang, Xiaoke Zhu, Jiahui Jin. "Rule-Based Graph
 Cleaning with GPUs on a Single Machine," in the *Proceedings of ACM Management of Data*, 3, 3 (SIGMOD), Article 166 (June 2025).
 doi:10.1145/3725303
